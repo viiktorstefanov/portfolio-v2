@@ -34,3 +34,8 @@ export type Education = {
   desc: string;
   degree: string;
 };
+
+export type MenuItem = {
+  label: string;
+  href: `#${string}`;
+};
