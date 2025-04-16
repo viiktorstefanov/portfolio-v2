@@ -1,11 +1,13 @@
-import React from 'react'
+import React from 'react';
+import { BrowserRouter as Router } from "react-router-dom";
+import Header from './components/Header/Header';
 
 const App: React.FC = () => {
   return (
-    <div>
-      <p className='bg-amber-200'>test</p>
-    </div>
-  )
-}
+    <Router>
+      <Header />
+    </Router>
+  );
+};
 
 export default App;
