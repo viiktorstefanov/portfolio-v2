@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import SandwichIcon from "../SandwichIcon/SandwichIcon";
-import MobileMenu from "../MobileMenu/MobileMenu";
+
 import LinkedInIcon from "../LinkedInIcon/LinkedInIcon";
+import MobileMenu from "../MobileMenu/MobileMenu";
 import GithubIcon from "../GithubIcon/GithubIcon";
 
 const MobileNav: React.FC = () => {

@@ -1,6 +1,6 @@
 import React from "react";
+import { menuItems } from "../../../constants/data";
 import MenuItem from "../MenuItem/MenuItem";
-import { menuItems } from "../../constants/data";
 
 type MobileMenuProps = {
   onClick: () => void;

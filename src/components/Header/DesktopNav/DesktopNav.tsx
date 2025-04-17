@@ -1,8 +1,10 @@
 import React from "react";
-import GithubButton from "../GithubButton/GithubButton";
+
 import LinkedInIcon from "../LinkedInIcon/LinkedInIcon";
-import { menuItems } from "../../constants/data";
+
 import MenuItem from "../MenuItem/MenuItem";
+import { menuItems } from "../../../constants/data";
+import GithubButton from "../GithubButton/GithubButton";
 
 const DesktopNav: React.FC = () => {
   return (

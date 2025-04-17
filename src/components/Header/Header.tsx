@@ -1,5 +1,5 @@
 import React from "react";
-import ResponsiveNav from "../ResponsiveNav/ResponsiveNav";
+import ResponsiveNav from "./ResponsiveNav/ResponsiveNav";
 import useIsMobile from "../../hooks/useIsMobile";
 
 const Header: React.FC = () => {

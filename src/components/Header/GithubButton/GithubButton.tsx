@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Bio } from "../../constants/data";
+import { Bio } from "../../../constants/data";
 
 const GithubButton: React.FC = () => {
   return (

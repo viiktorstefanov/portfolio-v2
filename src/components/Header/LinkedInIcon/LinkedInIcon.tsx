@@ -1,7 +1,8 @@
 import React from "react";
 import { BsLinkedin } from "react-icons/bs";
-import { Bio } from "../../constants/data";
+
 import { Link } from "react-router-dom";
+import { Bio } from "../../../constants/data";
 
 type LinkedInIconProps = {
   className?: string;
