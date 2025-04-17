@@ -1,5 +1,7 @@
 import React from "react";
+
 import { education, menuItems } from "../../constants/data";
+
 import Title from "./EducationTitle";
 import Section from "./EducationSection";
 import Container from "./EducationContainer";
