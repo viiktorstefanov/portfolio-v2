@@ -14,7 +14,7 @@ const DesktopNav: React.FC = () => {
       </div>
 
       <div className="w-[30%] h-full flex justify-end items-center px-[6px] py-0 gap-5">
-        <LinkedInIcon className="text-white" size={30} />
+        <LinkedInIcon className="text-white hover:text-primary-app" size={30} />
         <GithubButton />
       </div>
     </div>
