@@ -10,7 +10,7 @@ type LinkedInIconProps = {
 
 const LinkedInIcon: React.FC<LinkedInIconProps> = ({ className, size = 24 }) => {
   return (
-    <Link to={Bio.linkedin} target="_blank" className="hover:opacity-50">
+    <Link to={Bio.linkedin} target="_blank">
       <BsLinkedin size={size} className={className} />
     </Link>
   );
