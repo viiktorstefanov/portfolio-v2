@@ -9,7 +9,7 @@ type MenuItemProps = {
 
 const MenuItem: React.FC<MenuItemProps> = ({ target, label, onClick }) => {
   return (
-    <HashLink className='font-medium hover:text-primary-app transition duration-200 ease-in-out' onClick={onClick} smooth to={target}>{label}</HashLink>
+    <HashLink className='font-medium hover:text-primary-app transition duration-200 ease-in-out leading-[0]' onClick={onClick} smooth to={target}>{label}</HashLink>
   );
 };
 
