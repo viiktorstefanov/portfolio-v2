@@ -43,6 +43,18 @@ export type Certificate = {
   link: string;
 };
 
+export type Project = {
+  id: number;
+  title: string;
+  description: string;
+  image: string;
+  imageView?: string;
+  tags: string[];
+  github: string;
+  webapp: string;
+  youTube?: string;
+};
+
 export type MenuItem = {
   label: string;
   href: `#${string}`;
