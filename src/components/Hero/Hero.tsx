@@ -1,13 +1,38 @@
-import React from 'react';
-import { menuItems } from '../../constants/data';
+import React from "react";
+import { menuItems } from "../../constants/data";
+import Section from "./HeroSection";
+import Container from "./HeroContainer";
+import Wrapper from "./HeroWrapper";
+import HeroAnimation from "./HeroAnimation";
+import InnerContainer from "./HeroInnerContainer";
+import HeroLeftContainer from "./HeroLeftContainer";
+import HeroLeftContainerTitle from "./HeroLeftContainerTitle";
+import HeroTextLoop from "./HeroTextLoop";
+import HeroLeftContainerSubtitle from "./HeroLeftContainerSubtitle";
+import HeroRightContainer from "./HeroRightContainer";
+import HeroImage from "./HeroImage";
 
 const Hero: React.FC = () => {
-  return (
-    <div id={menuItems[0].href}>
-      <div className='flex justify-center relative z-[1] px-[30px] py-[80px] md:px-[30px] md:py-[80px] max-md:px-16 max-md:py-[66px] max-[640px]:px-16 max-[640px]:py-[32px]'>
+  const heroInfo = menuItems.find((item) => item.label === "About")!;
 
-      </div>
-    </div>
+  return (
+    <Section id={heroInfo.href}>
+      <Container>
+        <Wrapper>
+          <HeroAnimation />
+        </Wrapper>
+        <InnerContainer>
+          <HeroLeftContainer>
+            <HeroLeftContainerTitle />
+            <HeroTextLoop />
+            <HeroLeftContainerSubtitle />
+          </HeroLeftContainer>
+          <HeroRightContainer>
+            <HeroImage />
+          </HeroRightContainer>
+        </InnerContainer>
+      </Container>
+    </Section>
   );
 };
 
