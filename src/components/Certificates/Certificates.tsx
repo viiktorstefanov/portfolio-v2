@@ -1,11 +1,28 @@
-import React from 'react';
-import { menuItems } from '../../constants/data';
+import React from "react";
+import { certificates, menuItems } from "../../constants/data";
+import Section from "./CertificatesSection";
+import Wrapper from "./CertificatesWrapper";
+import Title from "./CertificatesTitle";
+import Container from "./CertificatesContainer";
+import CertificatesCard from "./CertificatesCard";
+import { Certificate } from "../../types/constants";
 
 const Certificates: React.FC = () => {
+  const certificatesInfo = menuItems.find(
+    (item) => item.label === "Certificates"
+  )!;
+
   return (
-    <div className='clip-cetificate-polygon flex flex-col justify-center relative z-[1] items-center pt-20 h-[300px]' id={menuItems[menuItems.length-2].href}>
-      
-    </div>
+    <Section id={certificatesInfo.href}>
+      <Wrapper>
+        <Title label={certificatesInfo.label} />
+        <Container>
+          {certificates.map((item: Certificate) => (
+            <CertificatesCard key={item.id} certificate={item} />
+          ))}
+        </Container>
+      </Wrapper>
+    </Section>
   );
 };
 
