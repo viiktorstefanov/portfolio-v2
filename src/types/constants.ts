@@ -35,7 +35,14 @@ export type Education = {
   degree: string;
 };
 
+export type Certificate = {
+  id: number;
+  img: string;
+  title: string;
+  link: string;
+};
+
 export type MenuItem = {
   label: string;
-  href: `#${string}`;
+  href: string;
 };
