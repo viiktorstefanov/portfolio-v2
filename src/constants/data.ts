@@ -1,5 +1,6 @@
 import {
   BioType,
+  Certificate,
   Education,
   Experience,
   MenuItem,
@@ -13,6 +14,7 @@ export const Bio: BioType = {
     "A highly motivated and passionate developer with experience in JavaScript, TypeScript, React, Angular, NestJS, HTML, CSS, SCSS, and Tailwind. I am looking for an opportunity to apply my skills and explore new concepts in web development.",
   github: "https://github.com/ViiktorStefanov",
   linkedin: "https://www.linkedin.com/in/viktorstefanov/",
+  photo: "assets/images/HeroImage.jpg",
 };
 
 export const skills: SkillCategory[] = [
@@ -200,11 +202,92 @@ export const education: Education[] = [
   },
 ];
 
+export const certificates: Certificate[] = [
+  {
+    id: 0,
+    img: "assets/images/front-end-certificate.png",
+    title: "Front-End Developer (React)",
+    link: "assets/images/front-end-certificate.png",
+  },
+  {
+    id: 1,
+    img: "assets/images/certificates/angular-certificate.png",
+    title: "Angular",
+    link: "https://softuni.bg/certificates/details/211776/fc7b72bc",
+  },
+  {
+    id: 2,
+    img: "assets/images/certificates/gpt-certificate.png",
+    title: "Practical use of ChatGPT in Software Development",
+    link: "https://github.com/viiktorstefanov/ViiktorStefanov/blob/main/HackBulgaria_Masterclass_Viktor%20Stefanov_15.02.pdf",
+  },
+  {
+    id: 3,
+    img: "assets/images/certificates/typescript-certificate.png",
+    title: "TypeScript",
+    link: "https://github.com/viiktorstefanov/ViiktorStefanov/blob/main/typescript.jpg",
+  },
+  {
+    id: 4,
+    img: "assets/images/certificates/react-certificate.png",
+    title: "React",
+    link: "https://softuni.bg/certificates/details/197757/5626224d",
+  },
+  {
+    id: 5,
+    img: "assets/images/certificates/back-end-certificate.png",
+    title: "JavaScript Back-End",
+    link: "https://softuni.bg/certificates/details/190511/2dd2f159",
+  },
+  {
+    id: 6,
+    img: "assets/images/certificates/html-css-certificate.png",
+    title: "HTML & CSS",
+    link: "https://softuni.bg/certificates/details/205236/765fdeb9",
+  },
+  {
+    id: 7,
+    img: "assets/images/certificates/applications-certificate.png",
+    title: "JavaScript Applications",
+    link: "https://softuni.bg/certificates/details/180040/65f26b18",
+  },
+  {
+    id: 8,
+    img: "assets/images/certificates/advanced-certificate.png",
+    title: "JavaScript Advanced",
+    link: "https://softuni.bg/certificates/details/174124/7392ef54",
+  },
+  {
+    id: 9,
+    img: "assets/images/certificates/fundamentals-certificate.png",
+    title: "JS Fundamentals",
+    link: "https://softuni.bg/certificates/details/166091/98066d3e",
+  },
+  {
+    id: 10,
+    img: "assets/images/certificates/basics-certificate.png",
+    title: "Programming Basics",
+    link: "https://softuni.bg/certificates/details/147897/2fefa0e5",
+  },
+];
+
 export const menuItems: MenuItem[] = [
   { label: "About", href: "#about" },
   { label: "Skills", href: "#skills" },
   { label: "Experience", href: "#experience" },
   { label: "Projects", href: "#projects" },
-  { label: "Certificates", href: "#certificates" },
   { label: "Education", href: "#education" },
+  { label: "Certificates", href: "#certificates" },
+];
+
+export const languages = [
+  "JavaScript",
+  "TypeScript",
+  "React",
+  "Angular",
+  "NodeJS",
+  "NestJS",
+  "Redux",
+  "HTML",
+  "CSS",
 ];

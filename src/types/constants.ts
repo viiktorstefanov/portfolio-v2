@@ -4,6 +4,7 @@ export type BioType = {
   description: string;
   github: string;
   linkedin: string;
+  photo: string;
 };
 
 export type SkillItem = {
@@ -44,5 +45,5 @@ export type Certificate = {
 
 export type MenuItem = {
   label: string;
-  href: string;
+  href: `#${string}`;
 };
