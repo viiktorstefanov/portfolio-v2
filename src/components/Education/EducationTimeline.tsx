@@ -19,7 +19,7 @@ const EducationTimeline: React.FC<EducationTimelineProps> = ({ education }) => {
     <Timeline>
       {education.map((item, index) => (
         <motion.div
-          key={index}
+          key={item.id}
           custom={index}
           initial="hidden"
           whileInView="visible"
