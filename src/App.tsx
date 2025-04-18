@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
+
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Education from "./components/Education/Education";
@@ -22,10 +23,10 @@ const App: React.FC = () => {
           <Experience />
         </Wrapper>
         <Projects />
-        <Certificates />
         <Wrapper>
           <Education />
         </Wrapper>
+        <Certificates />
         <Footer />
       </Main>
     </Router>
