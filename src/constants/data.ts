@@ -533,8 +533,7 @@ export const projects: Project[] = [
     imageView: "assets/images/mclimate.png",
     tags: ["TypeScript", "React", "HTML", "CSS", "Redux Toolkit", "Axios"],
     github: "https://github.com/viiktorstefanov/mclimate-task",
-    webapp: "",
-    youTube: "",
+    webapp: "https://front-end-task-52c74.web.app/",
   },
 ];
 
