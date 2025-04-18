@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+}
+
 .font-montserrat {
   font-family: "Montserrat", sans-serif;
 }
@@ -51,6 +55,7 @@
     clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%);
     background: #000;
   }
+  
 
   .wrapper {
     background: linear-gradient(
