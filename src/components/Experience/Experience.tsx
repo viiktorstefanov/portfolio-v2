@@ -1,11 +1,20 @@
-import React from 'react';
-import { menuItems } from '../../constants/data';
+import React from "react";
+import { experiences, menuItems } from "../../constants/data";
+import Section from "./ExperienceSection";
+import Wrapper from "./ExperienceWrapper";
+import Title from "./ExperienceTitle";
+import Timeline from "./ExperienceTimeline";
 
 const Experience: React.FC = () => {
+  const experienceInfo = menuItems.find((item) => item.label === "Experience")!;
+
   return (
-    <div className='flex flex-col justify-center relative z-[1] items-center py-[40px] pb-[80px] md:py-0 h-[300px]' id={menuItems[2].href}>
-      
-    </div>
+    <Section id={experienceInfo.href}>
+      <Wrapper>
+        <Title title={experienceInfo.label} />
+        <Timeline experiences={experiences} />
+      </Wrapper>
+    </Section>
   );
 };
 
