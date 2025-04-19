@@ -8,19 +8,19 @@ export type BioType = {
 };
 
 export type SkillItem = {
-  id: number;
+  id: string;
   name: string;
   image: string;
 };
 
 export type SkillCategory = {
-  id: number;
+  id: string;
   title: string;
   skills: SkillItem[];
 };
 
 export type Experience = {
-  id: number;
+  id: string;
   img: string;
   role: string;
   company: string;
@@ -28,7 +28,7 @@ export type Experience = {
 };
 
 export type Education = {
-  id: number;
+  id: string;
   img: string;
   school: string;
   date: string;
@@ -37,14 +37,14 @@ export type Education = {
 };
 
 export type Certificate = {
-  id: number;
+  id: string;
   img: string;
   title: string;
   link: string;
 };
 
 export type Project = {
-  id: number;
+  id: string;
   title: string;
   description: string;
   image: string;
