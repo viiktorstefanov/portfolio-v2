@@ -133,7 +133,7 @@ export const skills: SkillCategory[] = [
 export const experiences: Experience[] = [
   {
     id: 0,
-    img: "assets/images/first.jpeg",
+    img: "assets/images/first.png",
     role: "Intern Software Developer",
     company: "First. Best in Sports / Coretech",
     date: "March 2025 - April 2025",
@@ -154,14 +154,14 @@ export const experiences: Experience[] = [
   },
   {
     id: 3,
-    img: "https://brosbg.com/images/BROS-logo.png",
+    img: "assets/images/bros-logo.png",
     role: "Service technician",
     company: "BrosBG",
     date: "February 2019 - January 2021",
   },
   {
     id: 4,
-    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg/1920px-Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg.png",
+    img: "assets/images/j1.png",
     role: "J1 STUDENT",
     company: "USA",
     date: "May 2016 - October 2016",
