@@ -14,6 +14,7 @@ const CertificatesCardImage: React.FC<CertificatesCardImageProps> = ({
       className="w-full h-[350px] bg-white rounded-[10px] shadow-[0_0_16px_2px_rgba(0,0,0,0.3)] object-cover"
       src={url}
       alt={alt}
+      loading="lazy"
     />
   );
 };

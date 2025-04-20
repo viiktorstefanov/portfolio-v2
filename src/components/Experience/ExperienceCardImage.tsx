@@ -13,7 +13,8 @@ const ExperienceCardImage: React.FC<ExperienceCardImageProps> = ({
     <img
       src={url}
       alt={alt}
-      className="h-[80px] w-[10px] min-w-[100px] bg-black rounded-[10px] mt-[4px]"
+      className="h-[80px] w-[10px] min-w-[100px] bg-white rounded-[10px] mt-[4px]"
+      loading="lazy"
     />
   );
 };

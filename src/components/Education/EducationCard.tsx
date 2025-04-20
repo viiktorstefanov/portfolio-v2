@@ -19,6 +19,7 @@ max-md:p-[10px] max-md:gap-[8px] max-md:w-[300px]"
           className="h-[40px] md:h-[50px] bg-black rounded-[10px] mt-1"
           src={education.img}
           alt={education.school}
+          loading="lazy"
         />
         <div className="font-poppins w-full flex flex-col">
           <span className="text-white font-semibold text-[18px] max-md:text-[14px]">

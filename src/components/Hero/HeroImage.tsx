@@ -9,6 +9,7 @@ const HeroImage: React.FC = () => {
             max-[640px]:max-w-[280px] max-[640px]:max-h-[280px]"
       src={Bio.photo}
       alt={Bio.name}
+      loading="lazy"
     />
   );
 };
