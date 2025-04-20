@@ -8,7 +8,8 @@ import ProjectsModal from "./ProjectsModal";
 import { Project } from "../../types/constants";
 
 const Projects: React.FC = () => {
-  const projectsInfo = menuItems.find((item) => item.label === "Projects")!;
+  const projectsInfo = useMemo(() => menuItems.find(item => item.label === "Projects")!, []);
+
   const [openModal, setOpenModal] = useState<{
     state: boolean;
     id: string | null;
@@ -38,6 +39,7 @@ const Projects: React.FC = () => {
             openModal={openModal.state}
             onCloseModal={onCloseModal}
             project={selectedProject}
+            key={selectedProject.id}
           />
         )}
       </Wrapper>
