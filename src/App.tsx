@@ -11,8 +11,12 @@ import Experience from "./components/Experience/Experience";
 import Skills from "./components/Skills/Skills";
 import Hero from "./components/Hero/Hero";
 import Wrapper from "./components/Wrapper/Wrapper";
+import useScrollToHash from "./hooks/useScrollToHash";
 
 const App: React.FC = () => {
+
+  useScrollToHash();
+
   return (
     <Router>
       <Header />
