@@ -6,7 +6,7 @@ type ProjectsWrapperProps = {
 
 const ProjectsWrapper: React.FC<ProjectsWrapperProps> = ({ children }) => {
   return (
-    <div className="font-poppins relative flex flex-col justify-between items-center w-full max-w-[1350px] py-[10px] pb-[100px] gap-[12px] md:flex-col">
+    <div className="font-poppins relative flex flex-col justify-between items-center w-full max-w-[1350px] py-[10px] pb-44 gap-[12px] md:flex-col">
       {children}
     </div>
   );
