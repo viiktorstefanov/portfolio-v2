@@ -52,7 +52,7 @@ export type Project = {
   tags: string[];
   github: string;
   webapp: string;
-  youTube?: string;
+  youTubeVideoId?: string;
 };
 
 export type MenuItem = {

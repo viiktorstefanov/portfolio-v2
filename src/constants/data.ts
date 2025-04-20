@@ -290,6 +290,7 @@ export const projects: Project[] = [
     image: "assets/images/podkrepi-logo.png",
     imageView: "assets/images/podkrepi.png",
     tags: [
+      "React",
       "TypeScript",
       "Next.js",
       "NextAuth.js",
@@ -321,6 +322,7 @@ export const projects: Project[] = [
     ],
     github: "https://github.com/viiktorstefanov/Forgotten-Heroes",
     webapp: "https://zabravenite.web.app/",
+    youTubeVideoId: "TlxkeeGK8Ow?si=KYKYPddASlEucYI4",
   },
   {
     id: "7875ac67-687e-4e0f-9c55-38f2b1c765c7",
@@ -339,6 +341,7 @@ export const projects: Project[] = [
     ],
     github: "https://github.com/viiktorstefanov/Food-Stack-Angular",
     webapp: "https://foodstack-eu.web.app/home",
+    youTubeVideoId: "XlWjy4EO1ag?si=P_PiiTA-yLaYUdY_",
   },
   {
     id: "6f7ca7e0-2d61-45e3-8860-708f085255c4",
@@ -408,6 +411,7 @@ export const projects: Project[] = [
     ],
     github: "https://github.com/viiktorstefanov/react-native-challenge",
     webapp: "",
+    youTubeVideoId: "https://www.youtube.com/embed/aumTg12fyRc?si=jeD0R23jbsPB9Z2l",
   },
   {
     id: "f3595978-4781-4698-856b-68c8e7682d13",
@@ -427,6 +431,7 @@ export const projects: Project[] = [
     ],
     github: "https://github.com/viiktorstefanov/Urban-Tattoo-React",
     webapp: "https://urban-tattoo-react.web.app/",
+    youTubeVideoId: "cMf11SA3vEU?si=bpwuBkUloiES2YR2",
   },
   {
     id: "d8d33e0d-d583-4c51-b1bb-48d09a3d3c02",
@@ -439,6 +444,7 @@ export const projects: Project[] = [
     tags: ["JavaScript", "HTML", "CSS", "Node JS"],
     github: "https://github.com/viiktorstefanov/DroneDelivery",
     webapp: "https://drone-nemetschek.web.app/",
+    youTubeVideoId: "spbe8WXzLhw?si=DTMSbeppnRuK5Bs0",
   },
   {
     id: "99314ac2-6396-4f57-b65e-5d1a8aa54972",
@@ -458,6 +464,7 @@ export const projects: Project[] = [
     ],
     github: "https://github.com/viiktorstefanov/me2-angular",
     webapp: "https://me2-angular-d82fe.web.app/home",
+    youTubeVideoId: "ThwDfgf2YDc?si=PMwqJ_0MLcJ00Gre"
   },
   {
     id: "d4d274fb-2928-40ea-8a4b-57124eddf21b",
@@ -500,6 +507,7 @@ export const projects: Project[] = [
     ],
     github: "https://github.com/viiktorstefanov/GymAcademy",
     webapp: "",
+    youTubeVideoId: "20QuV88aZF8?si=D4lmi_fjGmrslphG"
   },
   {
     id: "32b506c1-338c-4c0f-8b36-e196d8bfe283",
@@ -530,10 +538,10 @@ export const projects: Project[] = [
       "My first game project, that I ever created with JavaScript.It was part of a JavaScript training from university. The game is completely simple. You are a dark magician, who can shoot fire.Your goal is to kill bugs.Starting with 0 points.For each killed bug you got points.For each level that is passed , the speed of the bugs increases.Move using `W`, `A`, `S` & `D` and avoid the bugs. Press `Spacebar` to shoot bugs.",
     image: "assets/images/firstgameproject thumbnail.png",
     imageView: ``,
-    youTube: `<iframe width="560" height="315" src="https://www.youtube.com/embed/d1R0MaG43Zo?si=MzSbYL0FJQz-wc9h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`,
     tags: ["JavaScript", "HTML", "CSS"],
     github: "https://github.com/viiktorstefanov/FirstGameProject",
     webapp: "https://myfirstgameproject-95dbe.web.app/",
+    youTubeVideoId: "d1R0MaG43Zo?si=MzSbYL0FJQz-wc9h",
   },
 ];
 
