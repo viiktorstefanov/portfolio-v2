@@ -5,6 +5,7 @@ export type BioType = {
   github: string;
   linkedin: string;
   photo: string;
+  languages: string[],
 };
 
 export type SkillItem = {
