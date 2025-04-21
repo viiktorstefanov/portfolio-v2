@@ -1,54 +1,49 @@
-# React + TypeScript + Vite
+# Full-Stack Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my redesigned developer portfolio, rebuilt from scratch to reflect my growth as a developer. It highlights modern practices, improved architecture, and a polished user experience.
+<br>
+![Portfolio Screenshot](public/assets/images/portfolio-screenshot.png)
 
-Currently, two official plugins are available:
+## About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+My previous portfolio was created early in my journey. Since then, I've gained extensive experience and adopted industry best practices. This project demonstrates my current skills and approach to building scalable, interactive, and responsive web applications.
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Frontend Framework**: React
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion, Typewriter Effect
+- **Utilities**: React Icons, React Scroll, React YouTube
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## Features
+
+- Responsive layout
+- Smooth animations and interactive effects
+- Scroll-based navigation and highlighting
+- Typewriter effect
+- YouTube video integration
+- Modular and scalable architecture
+- Clean, reusable, and component-driven design
+- Built with small, maintainable, and reusable components for cleaner code and easier scalability
+
+## Installation
+
+### 1. Clone the repository:
+
+```bash
+git clone https://github.com/viiktorstefanov/portfolio-v2.git
+cd portfolio-v2
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 2. Install dependencies
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+```bash
+npm install
+```
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+### 3. Run the project 
+
+```bash
+npm run dev 
 ```
