@@ -47,7 +47,10 @@ export type Project = {
   id: string;
   title: string;
   description: string;
-  image: string;
+  image: {
+    url: string,
+    objectFit: "cover" | "fill" | "contain" | "scale-down";
+  };
   imageView?: string;
   tags: string[];
   github?: string;

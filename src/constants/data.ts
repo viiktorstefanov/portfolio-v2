@@ -149,12 +149,12 @@ export const skills: SkillCategory[] = [
       {
         id: "f8e337c7-dbb6-48e7-b19e-d74f77015c65",
         name: "Zod",
-        image: "https://zod.dev/logo.svg",
+        image: "assets/images/zod.webp",
       },
       {
         id: "8d5e1fc6-d33a-41e1-92cc-8e7689de36a0",
         name: "Joi",
-        image: "https://joi.dev/_nuxt/img/joiTransparent.c5fc726.webp",
+        image: "assets/images/joi.webp",
       },
     ],
   },
@@ -354,7 +354,10 @@ export const projects: Project[] = [
     title: "Podkrepi.bg",
     description:
       "We are volunteers from the IT community, lawyers, accountants, marketers, medics, and NGO representatives. We are united by the desire to create an improved fundraising environment in Bulgaria by developing the most transparent platform for donations. The platform will support itself by membership fees and grants and not by charging a percentage of the funds raised for the campaigns that go through it.",
-    image: "assets/images/podkrepi-logo.webp",
+    image: {
+      url: "assets/images/podkrepi-logo.webp",
+      objectFit: "contain"
+    },
     imageView: "assets/images/podkrepi.webp",
     tags: [
       "React",
@@ -376,7 +379,10 @@ export const projects: Project[] = [
     title: "The Forgotten Heroes of Bulgaria",
     description:
       "Dynamic educational app, designed to make the study of Bulgarian history accessible and enjoyable for children. Combining engaging gameplay with educational content, focused on inspiring curiosity about Bulgarian history. The game presents a series of multiple choice questions dedicated to notable Bulgarian heroes. Each question is designed to challenge and inspire young minds, turning learning into an exciting adventure. The app features a competitive leaderboard that displays children' scores, reinforcing a sense of achievement and encouraging friendly competition. Kids can track their progress, see how they are doing against their peers and stay motivated to improve their knowledge. It also features a detailed section on heroes, a wealth of information, their contributions and their impact on the story.",
-    image: "assets/images/zabravenite-logo.webp",
+    image:  {
+      url: "assets/images/zabravenite-logo.webp",
+      objectFit: "fill"
+    },
     tags: [
       "TypeScript",
       "React",
@@ -396,7 +402,10 @@ export const projects: Project[] = [
     title: "Foodstack",
     description:
       "An app to track calories and macronutrients. Foodstack is designed to help you take control of your nutrition and reach your body goals. Whether you're looking to lose weight, gain muscle, or simply maintain a balanced diet, this app has got you covered.",
-    image: "assets/images/foodstack-logo.webp",
+    image:  {
+      url: "assets/images/foodstack-logo.webp",
+      objectFit: "cover"
+    },
     tags: [
       "TypeScript",
       "Angular",
@@ -415,7 +424,10 @@ export const projects: Project[] = [
     title: "MERN (TypeScript)",
     description:
       "This repository contains a RESTful API built using TypeScript, Express, and MongoDB. The project structure is designed to be scalable, modular, and easy to maintain. It includes all the necessary features such as routing, middleware, database operations,services and more.Also has front-end application built with React(TypeScript) and Redux for state managment.",
-    image: "assets/images/mern.webp",
+    image:  {
+      url: "assets/images/mern.webp",
+      objectFit: "cover"
+    },
     imageView: "assets/images/mern.webp",
     tags: [
       "TypeScript",
@@ -435,7 +447,10 @@ export const projects: Project[] = [
     title: "URL TO MP3",
     description:
       "This web application provides users with a seamless and straightforward way to convert YouTube videos into high-quality MP3 audio files. By simply providing a YouTube video URL, users can effortlessly download their favorite audio content without the distractions of intrusive ads or the risk of malware, ensuring a clean and secure experience.Easy-to-use Interface: Users simply paste a YouTube link to start the conversion process.No Ads or Malware: Unlike many similar services, this app is free from annoying advertisements and malicious software, offering a clean user experience.High-Quality MP3 Downloads: Converts YouTube videos into high-quality MP3 files that users can easily save and enjoy offline.Fast and Reliable: Quick conversion with minimal wait times.This application stands out for its emphasis on simplicity, user experience, and security, making it a trustworthy tool for audio conversion from YouTube.",
-    image: "assets/images/url-to-mp3.webp",
+    image:  {
+      url: "assets/images/url-to-mp3.webp",
+      objectFit: "cover"
+    },
     imageView: "assets/images/url-to-mp3.webp",
     tags: ["TypeScript", "React"],
     github: "https://github.com/viiktorstefanov/url-to-mp3",
@@ -446,7 +461,10 @@ export const projects: Project[] = [
     title: "Junior Front-End Developer Task",
     description:
       "As part of a technical assignment for a junior front-end developer position at MClimate, I developed a complete React project that demonstrates core front-end skills, including API integration, state management, component reusability, and responsive UI implementation. I also went beyond the initial requirements by recreating MClimate’s official website design and incorporating it into the project to showcase attention to detail and strong UI/UX capabilities.MClimate required the creation of a simple React project with an initial architecture and Redux setup. The task included integrating a login form using their public API, with the provided credentials, and storing the returned tokens in Redux. Additionally, the project needed to include three separate pages built with reusable components based on their provided designs: a page displaying a clickable building element, a detailed building page, and a floor detail page. All displayed data could be hardcoded, and no design was required for the login form. Use of a UI library like Reactstrap was optional.",
-    image: "assets/images/mclimate.webp",
+    image:  {
+      url: "assets/images/mclimate.webp",
+      objectFit: "cover"
+    },
     imageView: "assets/images/mclimate.webp",
     tags: ["TypeScript", "React", "HTML", "CSS", "Redux Toolkit", "Axios"],
     github: "https://github.com/viiktorstefanov/mclimate-task",
@@ -457,7 +475,10 @@ export const projects: Project[] = [
     title: "NIPS serivce",
     description:
       "NIPS Service is a professional repair service center specializing in mobile phones, laptops, computers, and tablets. The website provides essential information about the company, services offered, and contact details for customers.",
-    image: "assets/images/nips.webp",
+    image:  {
+      url: "assets/images/nips.webp",
+      objectFit: "cover"
+    },
     imageView: "assets/images/nips.webp",
     tags: ["Wordpress", "CSS"],
     webapp: "http://nipsservice.com",
@@ -467,7 +488,10 @@ export const projects: Project[] = [
     title: "Articles",
     description:
       "Developed as part of a task for a React Native Intern Developer role, this cross-platform mobile application was built using React Native and Expo CLI, with Android Studio used for virtual visualization. The app features a Home screen displaying a dynamic list of articles and an Article Details screen for viewing detailed content of selected articles. It integrates with a Hasura-hosted GraphQL API using Apollo Client for efficient data fetching with queries like articles and articles_by_pk. The app includes smooth navigation, state management, and a responsive UI aligned with the provided design. Comprehensive build and run instructions are included for seamless setup and deployment.",
-    image: "assets/images/react-native-app.webp",
+    image:  {
+      url: "assets/images/react-native-app.webp",
+      objectFit: "cover"
+    },
     tags: [
       "TypeScript",
       "React Native",
@@ -483,7 +507,10 @@ export const projects: Project[] = [
     title: "Urban",
     description:
       "Project is focused on providing potential clients with an accessible platform to view the artist's portfolio and easily book appointments.",
-    image: "assets/images/logo new 2023.webp",
+    image:  {
+      url: "assets/images/logo new 2023.webp",
+      objectFit: "contain"
+    },
     tags: [
       "JavaScript",
       "React",
@@ -502,7 +529,10 @@ export const projects: Project[] = [
     title: "Drone Delivery Network Simulator",
     description:
       "This project was part of an assignment when I applied for an internship as an intern web developer at ' Nemetschek ' company.I had to create an application to simulate deliveries of products with drones.As it had to be calculated: the final time for all deliveries, how many drones were used for deliveries, what type of drones were used, the average delivery time, the current status of each order, the current status of each drone. As input data we get a JSON format file.",
-    image: "assets/images/drone-delivery-screenshot.webp",
+    image:  {
+      url: "assets/images/drone-delivery-screenshot.webp",
+      objectFit: "contain"
+    },
     tags: ["JavaScript", "HTML", "CSS", "Node JS"],
     github: "https://github.com/viiktorstefanov/DroneDelivery",
     webapp: "https://drone-nemetschek.web.app/",
@@ -513,7 +543,10 @@ export const projects: Project[] = [
     title: "Me2",
     description:
       "Me2 is a platform designed for users to share and discover positive experiences or enjoyable places they've encountered. The application serves as a community-driven space where positivity is the central theme, allowing users to explore, contribute, and connect through shared experiences and places.",
-    image: "assets/images/me2-logo.webp",
+    image:  {
+      url: "assets/images/me2-logo.webp",
+      objectFit: "contain"
+    },
     tags: [
       "TypeScript",
       "Angular",
@@ -532,7 +565,10 @@ export const projects: Project[] = [
     title: "WebAPI Swift MT799 Messages",
     description:
       "This project was part of an assignment when I applied for an internship as an intern web developer at ' ProCredit Bank ' company. It was my first encounter with C# and .NET.  Project provides a RESTful API for handling SWIFT MT799 messages and allows to upload SWIFT MT799 messages and get stored messages.",
-    image: "assets/images/Swift.webp",
+    image:  {
+      url: "assets/images/Swift.webp",
+      objectFit: "fill"
+    },
     imageView: "assets/images/Swift.webp",
     tags: ["C#", ".NET 8", "SQLite", "Nlog", "Swagger"],
     github: "https://github.com/viiktorstefanov/webAPI-SwiftMT799.",
@@ -542,7 +578,10 @@ export const projects: Project[] = [
     title: "AI Hackathon",
     description:
       "I participated in a 2-day AI Hackathon, where our team developed an AI-powered game based on Greek mythology. The game immerses users in an interactive story, where the narrative evolves based on user choices, with multiple possible outcomes generated by artificial intelligence. Game Concept: The user embarks on a journey through ancient Greek myths, interacting with gods, heroes, and monsters. At key moments in the story, AI generates different outcomes based on user decisions, creating a unique, dynamic storytelling experience.AI Integration: Leveraged AI model to generate storylines and branching paths, offering a high level of personalization.Players can explore various mythological themes and see how their decisions affect the storyline's progression.The AI-generated narrative paths keep users engaged with rich, evolving storylines and numerous possible endings.",
-    image: "assets/images/greek.webp",
+    image:  {
+      url: "assets/images/greek.webp",
+      objectFit: "fill"
+    },
     imageView: "assets/images/greek.webp",
     tags: ["OpenAI Assistant", "Python", "React", "JavaScript"],
     github: "https://github.com/HristoP96/turing-titans-be",
@@ -553,7 +592,10 @@ export const projects: Project[] = [
     title: "Gym Academy",
     description:
       "GymAcademy is an application designed for all kind of athletes to discover, browse, and share workout programs. Whether you are a beginner, advanced, intermediate, or professional, GymAcademy provides a platform for users to access popular workout programs and contribute their own. The project was designed to practice my skills with ExpressJS as well as to implement server-side-rendering.",
-    image: "assets/images/gymacademy-logo.webp",
+    image:  {
+      url: "assets/images/gymacademy-logo.webp",
+      objectFit: "scale-down"
+    },
     tags: [
       "Express JS",
       "JavaScript",
@@ -572,7 +614,10 @@ export const projects: Project[] = [
     title: "Urban Roots",
     description:
       "This initial version of my 'Urban' project, represents the foundational phase of the project, meticulously constructed utilizing fundamental expertise in HTML, CSS, and JavaScript.With LIT-HTML serving as the templating and implementing SPA.",
-    image: "assets/images/urban-roots.webp",
+    image:  {
+      url: "assets/images/urban-roots.webp",
+      objectFit: "cover"
+    },
     imageView: "assets/images/urban-site-review.gif",
     tags: [
       "JavaScript",
@@ -592,7 +637,10 @@ export const projects: Project[] = [
     title: "FirstGameProject",
     description:
       "My first game project, that I ever created with JavaScript.It was part of a JavaScript training from university. The game is completely simple. You are a dark magician, who can shoot fire.Your goal is to kill bugs.Starting with 0 points.For each killed bug you got points.For each level that is passed , the speed of the bugs increases.Move using `W`, `A`, `S` & `D` and avoid the bugs. Press `Spacebar` to shoot bugs.",
-    image: "assets/images/firstgameproject thumbnail.webp",
+    image:  {
+      url: "assets/images/firstgameproject thumbnail.webp",
+      objectFit: "fill"
+    },
     tags: ["JavaScript", "HTML", "CSS"],
     github: "https://github.com/viiktorstefanov/FirstGameProject",
     webapp: "https://myfirstgameproject-95dbe.web.app/",
