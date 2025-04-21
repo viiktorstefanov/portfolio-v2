@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useMemo } from "react";
 import { certificates, menuItems } from "../../constants/data";
 import Section from "./CertificatesSection";
 import Wrapper from "./CertificatesWrapper";
@@ -8,9 +8,7 @@ import CertificatesCard from "./CertificatesCard";
 import { Certificate } from "../../types/constants";
 
 const Certificates: React.FC = () => {
-  const certificatesInfo = menuItems.find(
-    (item) => item.label === "Certificates"
-  )!;
+  const certificatesInfo = useMemo(() => menuItems.find(item => item.label === "Certificates")!, []);
 
   return (
     <Section id={certificatesInfo.href}>

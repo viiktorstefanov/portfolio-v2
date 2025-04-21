@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useMemo } from "react";
 
 import { education, menuItems } from "../../constants/data";
 
@@ -9,7 +9,7 @@ import Wrapper from "./EducationWrapper";
 import Timeline from "./EducationTimeline";
 
 const Education: React.FC = () => {
-  const educationInfo = menuItems.find((item) => item.label === "Education")!;
+const educationInfo = useMemo(() => menuItems.find(item => item.label === "Education")!, []);
 
   return (
     <Section id={educationInfo.href}>

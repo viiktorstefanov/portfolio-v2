@@ -4,8 +4,9 @@ import Section from "./ProjectsSection";
 import Wrapper from "./ProjectsWrapper";
 import Title from "./ProjectsTitle";
 import Container from "./ProjectsContainer";
-import ProjectsModal from "./ProjectsModal";
+
 import { Project } from "../../types/constants";
+import Modal from "../ProjectsModal/ProjectsModal";
 
 const Projects: React.FC = () => {
   const projectsInfo = useMemo(() => menuItems.find(item => item.label === "Projects")!, []);
@@ -35,7 +36,7 @@ const Projects: React.FC = () => {
         <Title title={projectsInfo.label} />
         <Container projects={projects} onOpenModal={onOpenModal} />
         {selectedProject && (
-          <ProjectsModal
+          <Modal
             openModal={openModal.state}
             onCloseModal={onCloseModal}
             project={selectedProject}
