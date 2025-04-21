@@ -6,7 +6,7 @@
 
 ## About
 
-My previous portfolio was created early in my journey. Since then, I've gained extensive experience and adopted industry best practices. This project demonstrates my current skills and approach to building scalable, interactive, and responsive web applications.
+My previous portfolio was created early in my dev journey with JavaScript. Since then, I've gained extensive experience and adopted industry best practices. This project demonstrates my current skills and approach to building scalable, interactive, and responsive web applications.
 
 ## Tech Stack
 
