@@ -174,7 +174,6 @@ export const education: Education[] = [
     img: "https://about.udemy.com/wp-content/uploads/2021/12/udemy-logo-share.png",
     school: "Udemy",
     date: "December 2023 - January 2024",
-    desc: "",
     degree: "TypeScript",
   },
   {
@@ -182,7 +181,6 @@ export const education: Education[] = [
     img: "assets/images/softuni.png",
     school: "Software University",
     date: "October 2022 - April 2024",
-    desc: "",
     degree: "Front-End Developer",
   },
   {
@@ -190,7 +188,6 @@ export const education: Education[] = [
     img: "assets/images/unwe.png",
     school: "University of National and World Economy",
     date: "September 2014 - October 2018",
-    desc: "",
     degree: "Regional Development",
   },
   {
@@ -198,7 +195,6 @@ export const education: Education[] = [
     img: "https://tcom-sf.org/siteimages/logo.png",
     school: "Professional School of Telecommunications",
     date: "September 2009 - September 2014",
-    desc: "",
     degree: "Network Systems",
   },
 ];
@@ -361,7 +357,6 @@ export const projects: Project[] = [
       "Express TS",
     ],
     github: "https://github.com/viiktorstefanov/mern-boiler-plate",
-    webapp: "",
   },
   {
     id: "9a896700-c740-4997-a77b-0a8df30eea89",
@@ -393,7 +388,6 @@ export const projects: Project[] = [
     image: "assets/images/nips.jpg",
     imageView: "assets/images/nips.jpg",
     tags: ["Wordpress", "CSS"],
-    github: "http://nipsservice.com",
     webapp: "http://nipsservice.com",
   },
   {
@@ -410,8 +404,7 @@ export const projects: Project[] = [
       "Apollo Client",
     ],
     github: "https://github.com/viiktorstefanov/react-native-challenge",
-    webapp: "",
-    youTubeVideoId: "https://www.youtube.com/embed/aumTg12fyRc?si=jeD0R23jbsPB9Z2l",
+    youTubeVideoId: "aumTg12fyRc?si=jeD0R23jbsPB9Z2l",
   },
   {
     id: "f3595978-4781-4698-856b-68c8e7682d13",
@@ -419,7 +412,6 @@ export const projects: Project[] = [
     description:
       "Project is focused on providing potential clients with an accessible platform to view the artist's portfolio and easily book appointments.",
     image: "assets/images/logo new 2023.jpg",
-    imageView: "",
     tags: [
       "JavaScript",
       "React",
@@ -440,7 +432,6 @@ export const projects: Project[] = [
       "This project was part of an assignment when I applied for an internship as an intern web developer at ' Nemetschek ' company.I had to create an application to simulate deliveries of products with drones.As it had to be calculated: the final time for all deliveries, how many drones were used for deliveries, what type of drones were used, the average delivery time, the current status of each order, the current status of each drone. As input data we get a JSON format file.",
     image:
       "https://github.com/viiktorstefanov/DroneDelivery/blob/main/drone-delivery-screenshot.png?raw=true",
-    imageView: "",
     tags: ["JavaScript", "HTML", "CSS", "Node JS"],
     github: "https://github.com/viiktorstefanov/DroneDelivery",
     webapp: "https://drone-nemetschek.web.app/",
@@ -452,7 +443,6 @@ export const projects: Project[] = [
     description:
       "Me2 is a platform designed for users to share and discover positive experiences or enjoyable places they've encountered. The application serves as a community-driven space where positivity is the central theme, allowing users to explore, contribute, and connect through shared experiences and places.",
     image: "assets/images/me2-logo.png",
-    imageView: "",
     tags: [
       "TypeScript",
       "Angular",
@@ -475,7 +465,6 @@ export const projects: Project[] = [
     imageView: "assets/images/Swift.jpeg",
     tags: ["C#", ".NET 8", "SQLite", "Nlog", "Swagger"],
     github: "https://github.com/viiktorstefanov/webAPI-SwiftMT799.",
-    webapp: "",
   },
   {
     id: "26995b70-0f58-4686-b572-c19b4c91838d",
@@ -494,7 +483,6 @@ export const projects: Project[] = [
     description:
       "GymAcademy is an application designed for all kind of athletes to discover, browse, and share workout programs. Whether you are a beginner, advanced, intermediate, or professional, GymAcademy provides a platform for users to access popular workout programs and contribute their own. The project was designed to practice my skills with ExpressJS as well as to implement server-side-rendering.",
     image: "assets/images/gymacademy-logo.png",
-    imageView: "",
     tags: [
       "Express JS",
       "JavaScript",
@@ -506,7 +494,6 @@ export const projects: Project[] = [
       "BCRYPT",
     ],
     github: "https://github.com/viiktorstefanov/GymAcademy",
-    webapp: "",
     youTubeVideoId: "20QuV88aZF8?si=D4lmi_fjGmrslphG"
   },
   {
@@ -529,7 +516,6 @@ export const projects: Project[] = [
       "BCRYPT",
     ],
     github: "https://github.com/viiktorstefanov/urban",
-    webapp: "",
   },
   {
     id: "f15e2097-591b-4462-9b4a-535fd7d30025",
@@ -537,7 +523,6 @@ export const projects: Project[] = [
     description:
       "My first game project, that I ever created with JavaScript.It was part of a JavaScript training from university. The game is completely simple. You are a dark magician, who can shoot fire.Your goal is to kill bugs.Starting with 0 points.For each killed bug you got points.For each level that is passed , the speed of the bugs increases.Move using `W`, `A`, `S` & `D` and avoid the bugs. Press `Spacebar` to shoot bugs.",
     image: "assets/images/firstgameproject thumbnail.png",
-    imageView: ``,
     tags: ["JavaScript", "HTML", "CSS"],
     github: "https://github.com/viiktorstefanov/FirstGameProject",
     webapp: "https://myfirstgameproject-95dbe.web.app/",

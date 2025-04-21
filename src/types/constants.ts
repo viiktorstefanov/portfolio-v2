@@ -32,7 +32,6 @@ export type Education = {
   img: string;
   school: string;
   date: string;
-  desc: string;
   degree: string;
 };
 
@@ -50,8 +49,8 @@ export type Project = {
   image: string;
   imageView?: string;
   tags: string[];
-  github: string;
-  webapp: string;
+  github?: string;
+  webapp?: string;
   youTubeVideoId?: string;
 };
 
