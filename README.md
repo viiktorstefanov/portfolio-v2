@@ -1,6 +1,7 @@
-# Full-Stack Developer Portfolio
+# Portfolio
 
-This is my redesigned developer portfolio, rebuilt from scratch to reflect my growth as a developer. It highlights modern practices, improved architecture, and a polished user experience.
+<h2>This is my redesigned developer portfolio, rebuilt from scratch to reflect my growth as a developer. It highlights modern practices, improved architecture, and a polished user experience.</h2>
+<br>
 <br>
 ![Portfolio Screenshot](public/assets/images/portfolio-screenshot.png)
 
