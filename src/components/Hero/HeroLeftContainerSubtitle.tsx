@@ -1,6 +1,6 @@
 import React from "react";
 import HeroHighlightLanguage from "./HeroHighlightLanguage";
-import { languages } from "../../constants/data";
+import { Bio } from "../../constants/data";
 
 const HeroLeftContainerSubtitle: React.FC = () => {
   return (
@@ -9,10 +9,10 @@ const HeroLeftContainerSubtitle: React.FC = () => {
            sm:text-[20px] sm:leading-[32px]"
     >
       A highly motivated and passionate developer with experience in{" "}
-      {languages.map((lang, index) => (
+      {Bio.languages.map((lang, index) => (
         <React.Fragment key={lang}>
           <HeroHighlightLanguage>{lang}</HeroHighlightLanguage>
-          {index < languages.length - 1 ? ", " : ""}
+          {index < Bio.languages.length - 1 ? ", " : ""}
         </React.Fragment>
       ))}
       .
