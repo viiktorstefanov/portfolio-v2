@@ -435,7 +435,7 @@ export const projects: Project[] = [
     title: "URL TO MP3",
     description:
       "This web application provides users with a seamless and straightforward way to convert YouTube videos into high-quality MP3 audio files. By simply providing a YouTube video URL, users can effortlessly download their favorite audio content without the distractions of intrusive ads or the risk of malware, ensuring a clean and secure experience.Easy-to-use Interface: Users simply paste a YouTube link to start the conversion process.No Ads or Malware: Unlike many similar services, this app is free from annoying advertisements and malicious software, offering a clean user experience.High-Quality MP3 Downloads: Converts YouTube videos into high-quality MP3 files that users can easily save and enjoy offline.Fast and Reliable: Quick conversion with minimal wait times.This application stands out for its emphasis on simplicity, user experience, and security, making it a trustworthy tool for audio conversion from YouTube.",
-    image: "assets/images/youtube-logo.webp",
+    image: "assets/images/url-to-mp3.webp",
     imageView: "assets/images/url-to-mp3.webp",
     tags: ["TypeScript", "React"],
     github: "https://github.com/viiktorstefanov/url-to-mp3",
