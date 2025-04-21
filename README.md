@@ -1,4 +1,4 @@
-![Portfolio Screenshot](public/assets/images/portfolio-screenshot.png)
+![Portfolio Screenshot](public/assets/images/portfolio-screenshot.webp)
 
 ## This is my redesigned developer portfolio, rebuilt from scratch to reflect my growth as a developer. It highlights modern practices, improved architecture, and a polished user experience.
 
@@ -24,6 +24,7 @@ My previous portfolio was created early in my dev journey with JavaScript. Since
 - Modular and scalable architecture
 - Clean, reusable, and component-driven design
 - Built with small, maintainable, and reusable components for cleaner code and easier scalability
+- Optimized images using WebP format for faster loading and smaller file sizes
 
 ## Installation
 
