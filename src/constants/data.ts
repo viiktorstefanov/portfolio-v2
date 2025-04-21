@@ -544,7 +544,7 @@ export const projects: Project[] = [
       "Me2 is a platform designed for users to share and discover positive experiences or enjoyable places they've encountered. The application serves as a community-driven space where positivity is the central theme, allowing users to explore, contribute, and connect through shared experiences and places.",
     image: {
       url: "assets/images/me2-logo.webp",
-      objectFit: "none",
+      objectFit: "contain",
     },
     tags: [
       "TypeScript",
