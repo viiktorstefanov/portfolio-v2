@@ -2,6 +2,11 @@
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
+  "author": {
+    "name": "Viktor Stefanov  ",
+    "email": "victorystefanov@gmail.com",
+    "url": "https://viktor-stefanov.web.app"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",
