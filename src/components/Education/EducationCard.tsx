@@ -33,9 +33,6 @@ max-md:p-[10px] max-md:gap-[8px] max-md:w-[300px]"
           </span>
         </div>
       </div>
-      <div className="w-full text-base font-normal text-opacity-99 mb-2.5 md:text-sm">
-        <span className="text-white overflow-hidden max-w-full line-clamp-4">{education.desc}</span>
-      </div>
     </div>
   );
 };
