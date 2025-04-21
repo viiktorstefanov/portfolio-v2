@@ -1,6 +1,4 @@
-# Portfolio
-
-<h3>This is my redesigned developer portfolio, rebuilt from scratch to reflect my growth as a developer. It highlights modern practices, improved architecture, and a polished user experience.</h3>
+# This is my redesigned developer portfolio, rebuilt from scratch to reflect my growth as a developer. It highlights modern practices, improved architecture, and a polished user experience.
 <br>
 <br>
 
