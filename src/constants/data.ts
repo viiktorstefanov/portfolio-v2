@@ -286,13 +286,13 @@ export const certificates: Certificate[] = [
     id: "2c0829fe-9892-40c5-9064-8d22a1ead540",
     img: "assets/images/certificates/gpt-certificate.webp",
     title: "Practical use of ChatGPT in Software Development",
-    link: "https://github.com/viiktorstefanov/ViiktorStefanov/blob/main/HackBulgaria_Masterclass_Viktor%20Stefanov_15.02.pdf",
+    link: "assets/images/certificates/gpt-certificate.webp",
   },
   {
     id: "b59b6acb-cab8-4d7c-95e2-3505c4ccd2ce",
     img: "assets/images/certificates/typescript-certificate.webp",
     title: "TypeScript",
-    link: "https://github.com/viiktorstefanov/ViiktorStefanov/blob/main/typescript.webp",
+    link: "assets/images/certificates/typescript-certificate.webp",
   },
   {
     id: "37b00392-f7ef-4f99-9c2d-eef20f0b3f90",
