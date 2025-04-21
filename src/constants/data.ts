@@ -16,6 +16,15 @@ export const Bio: BioType = {
   github: "https://github.com/ViiktorStefanov",
   linkedin: "https://www.linkedin.com/in/viktorstefanov/",
   photo: "assets/images/HeroImage.jpg",
+  languages: ["JavaScript",
+  "TypeScript",
+  "React",
+  "Angular",
+  "NodeJS",
+  "NestJS",
+  "Redux",
+  "HTML",
+  "CSS",]
 };
 
 export const skills: SkillCategory[] = [
@@ -140,14 +149,14 @@ export const experiences: Experience[] = [
   },
   {
     id: "8b1a3cbc-b15a-4183-a9c4-b1cab2f32741",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM2M5vvQmj-tNT-4HkpOhRg8BaHHaZmSJKKw&s",
+    img: "assets/images/podkrepi-logo.png",
     role: "Volunteer Front-End Developer",
     company: "Podkrepi.bg",
     date: "September 2024 - March 2025",
   },
   {
     id: "482b7908-ea9c-4c8e-a41a-af5e7f3b39a6",
-    img: "https://cdncloudcart.com/15271/logo/2.svg?1578388646",
+    img: "assets/images/digital.png",
     role: "Computer Technical Specialist",
     company: "Digital Republic",
     date: "January 2021 - December 2022",
@@ -171,7 +180,7 @@ export const experiences: Experience[] = [
 export const education: Education[] = [
   {
     id: "60076445-d31c-463c-b7f3-43c3fc1f6b66",
-    img: "https://about.udemy.com/wp-content/uploads/2021/12/udemy-logo-share.png",
+    img: "assets/images/udemy.png",
     school: "Udemy",
     date: "December 2023 - January 2024",
     degree: "TypeScript",
@@ -192,7 +201,7 @@ export const education: Education[] = [
   },
   {
     id: "258ea994-1d7f-42fe-9027-f2955b0d7b19",
-    img: "https://tcom-sf.org/siteimages/logo.png",
+    img: "assets/images/tcom.png",
     school: "Professional School of Telecommunications",
     date: "September 2009 - September 2014",
     degree: "Network Systems",
@@ -431,8 +440,7 @@ export const projects: Project[] = [
     title: "Drone Delivery Network Simulator",
     description:
       "This project was part of an assignment when I applied for an internship as an intern web developer at ' Nemetschek ' company.I had to create an application to simulate deliveries of products with drones.As it had to be calculated: the final time for all deliveries, how many drones were used for deliveries, what type of drones were used, the average delivery time, the current status of each order, the current status of each drone. As input data we get a JSON format file.",
-    image:
-      "https://github.com/viiktorstefanov/DroneDelivery/blob/main/drone-delivery-screenshot.png?raw=true",
+    image: "assets/images/drone-delivery-screenshot.png",
     tags: ["JavaScript", "HTML", "CSS", "Node JS"],
     github: "https://github.com/viiktorstefanov/DroneDelivery",
     webapp: "https://drone-nemetschek.web.app/",
@@ -503,7 +511,7 @@ export const projects: Project[] = [
     description:
       "This initial version of my 'Urban' project, represents the foundational phase of the project, meticulously constructed utilizing fundamental expertise in HTML, CSS, and JavaScript.With LIT-HTML serving as the templating and implementing SPA.",
     image:
-      "https://github.com/viiktorstefanov/urban/blob/master/urban-roots.png?raw=true",
+      "assets/images/urban-roots.png",
     imageView: "assets/images/urban-site-review.gif",
     tags: [
       "JavaScript",
@@ -529,16 +537,4 @@ export const projects: Project[] = [
     webapp: "https://myfirstgameproject-95dbe.web.app/",
     youTubeVideoId: "d1R0MaG43Zo?si=MzSbYL0FJQz-wc9h",
   },
-];
-
-export const languages = [
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Angular",
-  "NodeJS",
-  "NestJS",
-  "Redux",
-  "HTML",
-  "CSS",
 ];
