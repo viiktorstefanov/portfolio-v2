@@ -509,7 +509,7 @@ export const projects: Project[] = [
       "Project is focused on providing potential clients with an accessible platform to view the artist's portfolio and easily book appointments.",
     image:  {
       url: "assets/images/logo new 2023.webp",
-      objectFit: "scale-down"
+      objectFit: "contain"
     },
     tags: [
       "JavaScript",
@@ -545,7 +545,7 @@ export const projects: Project[] = [
       "Me2 is a platform designed for users to share and discover positive experiences or enjoyable places they've encountered. The application serves as a community-driven space where positivity is the central theme, allowing users to explore, contribute, and connect through shared experiences and places.",
     image:  {
       url: "assets/images/me2-logo.webp",
-      objectFit: "contain"
+      objectFit: "none"
     },
     tags: [
       "TypeScript",

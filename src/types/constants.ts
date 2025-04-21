@@ -49,7 +49,7 @@ export type Project = {
   description: string;
   image: {
     url: string,
-    objectFit: "cover" | "fill" | "contain" | "scale-down";
+    objectFit: "cover" | "fill" | "contain" | "scale-down" | "none";
   };
   imageView?: string;
   tags: string[];
