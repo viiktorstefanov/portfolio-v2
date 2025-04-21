@@ -357,6 +357,7 @@ export const projects: Project[] = [
       "Express TS",
     ],
     github: "https://github.com/viiktorstefanov/mern-boiler-plate",
+    webapp: "https://mern-boiler-plate.web.app/",
   },
   {
     id: "9a896700-c740-4997-a77b-0a8df30eea89",
