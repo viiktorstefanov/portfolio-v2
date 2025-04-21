@@ -509,7 +509,7 @@ export const projects: Project[] = [
       "Project is focused on providing potential clients with an accessible platform to view the artist's portfolio and easily book appointments.",
     image:  {
       url: "assets/images/logo new 2023.webp",
-      objectFit: "contain"
+      objectFit: "scale-down"
     },
     tags: [
       "JavaScript",
