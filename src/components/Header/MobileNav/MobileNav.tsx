@@ -1,15 +1,14 @@
 import React, { useState } from "react";
 import SandwichIcon from "../SandwichIcon/SandwichIcon";
-
 import LinkedInIcon from "../LinkedInIcon/LinkedInIcon";
-import MobileMenu from "../MobileMenu/MobileMenu";
 import GithubIcon from "../GithubIcon/GithubIcon";
+import Drawer from "../Drawer/Drawer";
 
 const MobileNav: React.FC = () => {
   const [openMenu, setOpenMenu] = useState(false);
 
-  const onClick = () => {
-    setOpenMenu(!openMenu);
+  const toggleDrawer = (open: boolean) => () => {
+    setOpenMenu(open);
   };
 
   return (
@@ -18,8 +17,9 @@ const MobileNav: React.FC = () => {
         <GithubIcon />
         <LinkedInIcon />
       </div>
-      <SandwichIcon onClick={onClick} />
-      {openMenu && <MobileMenu onClick={onClick} />}
+      <SandwichIcon onClick={toggleDrawer(true)} />
+
+      <Drawer position="right" state={openMenu} toggleDrawer={toggleDrawer(false)}/>
     </div>
   );
 };
