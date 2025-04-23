@@ -12,7 +12,7 @@ const MobileNav: React.FC = () => {
   };
 
   return (
-    <div className="flex justify-between items-center h-[60px] z-[1] w-full px-6 max-w-[1200px]">
+    <div className="flex justify-between items-center h-[60px] z-[1] w-full px-6 max-w-[1200px] text-white">
       <div className="flex justify-center items-center gap-5">
         <GithubIcon />
         <LinkedInIcon />
