@@ -3,6 +3,7 @@ import DrawerMUI from "@mui/material/Drawer";
 import Box from "@mui/material/Box";
 import { menuItems } from "../../../constants/data";
 import MenuItem from "../MenuItem/MenuItem";
+import { CloseRounded } from "@mui/icons-material";
 
 type DrawerProps = {
   position: "top" | "right" | "bottom" | "left";
@@ -25,10 +26,16 @@ const Drawer: React.FC<DrawerProps> = ({ position, state, toggleDrawer }) => {
         onClick={toggleDrawer}
         onKeyDown={toggleDrawer}
       >
-        <div className="flex flex-col gap-3 pt-3 cursor-pointer mt-7 text-primary-app">
+        <div className="flex flex-col gap-3 cursor-pointer">
+          <div className="w-full flex items-end justify-end text-end pr-[5%] pt-[10%]">
+            <CloseRounded className="cursor-pointer" onClick={toggleDrawer} />
+          </div>
           {menuItems.map((item) => (
-            <div key={item.id} className="flex gap-3 justify-start items-center pt-[10px] pr-0 pb-[10px] pl-[27px] ">
-              <item.icon className="text-[25px]"/>
+            <div
+              key={item.id}
+              className="flex gap-3 justify-start items-center pt-[10px] pr-0 pb-[10px] pl-[27px] "
+            >
+              <item.icon className="text-[25px] text-primary-app" />
               <MenuItem
                 key={item.label}
                 target={item.href}
