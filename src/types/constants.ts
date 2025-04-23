@@ -1,3 +1,5 @@
+import { IconType } from "react-icons";
+
 export type BioType = {
   name: string;
   roles: string[];
@@ -61,4 +63,6 @@ export type Project = {
 export type MenuItem = {
   label: string;
   href: `#${string}`;
+  id: string,
+  icon: IconType,
 };
