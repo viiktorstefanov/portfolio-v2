@@ -8,6 +8,12 @@ import {
   SkillCategory,
 } from "../types/constants";
 
+import { GoMortarBoard } from "react-icons/go";
+import { PiCertificateLight, PiStack } from "react-icons/pi";
+import { PiGear } from "react-icons/pi";
+import { PiBriefcase } from "react-icons/pi";
+import { HiOutlineInformationCircle } from "react-icons/hi2";
+
 export const Bio: BioType = {
   name: "Viktor Stefanov",
   roles: ["Full-Stack Developer"],
@@ -339,12 +345,42 @@ export const certificates: Certificate[] = [
 ];
 
 export const menuItems: MenuItem[] = [
-  { label: "About", href: "#about" },
-  { label: "Skills", href: "#skills" },
-  { label: "Experience", href: "#experience" },
-  { label: "Projects", href: "#projects" },
-  { label: "Education", href: "#education" },
-  { label: "Certificates", href: "#certificates" },
+  {
+    label: "About",
+    href: "#about",
+    id: "ccbe4b3f-c168-4cd1-9293-22e04e4226ce",
+    icon: HiOutlineInformationCircle,
+  },
+  {
+    label: "Skills",
+    href: "#skills",
+    id: "54987158-cb55-4526-beec-74d29350978b",
+    icon: PiGear,
+  },
+  {
+    label: "Experience",
+    href: "#experience",
+    id: "3cf2c9ea-0fb5-4831-a084-34bc06eccb4a",
+    icon: PiBriefcase,
+  },
+  {
+    label: "Projects",
+    href: "#projects",
+    id: "29bf9bbc-8d87-4e21-9bce-950168baef1e",
+    icon: PiStack,
+  },
+  {
+    label: "Education",
+    href: "#education",
+    id: "5c3da38f-af9b-450a-8f4d-835271f1b09a",
+    icon: GoMortarBoard,
+  },
+  {
+    label: "Certificates",
+    href: "#certificates",
+    id: "040c600d-afc4-4aa4-85cc-51d549649447",
+    icon: PiCertificateLight,
+  },
 ];
 
 export const projects: Project[] = [
