@@ -5,7 +5,7 @@ import { Bio } from "../../constants/data";
 const HeroLeftContainerSubtitle: React.FC = () => {
   return (
     <div
-      className="font-poppins text-[20px] leading-[32px] mb-[42px] text-[#b1b2b3]  
+      className="font-poppins text-[20px] leading-[32px] pt-7 text-center sm:mb-[42px] text-[#b1b2b3]  
            sm:text-[20px] sm:leading-[32px]"
     >
       A highly motivated and passionate developer with experience in{" "}
