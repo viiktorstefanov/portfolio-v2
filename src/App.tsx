@@ -14,7 +14,6 @@ import Wrapper from "./components/Wrapper/Wrapper";
 import useScrollToHash from "./hooks/useScrollToHash";
 
 const App: React.FC = () => {
-
   useScrollToHash();
 
   return (
@@ -27,9 +26,7 @@ const App: React.FC = () => {
           <Experience />
         </Wrapper>
         <Projects />
-        <Wrapper>
-          <Education />
-        </Wrapper>
+        <Education />
         <Certificates />
         <Footer />
       </Main>
