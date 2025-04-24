@@ -7,19 +7,25 @@ import Section from "./EducationSection";
 import Container from "./EducationContainer";
 import Wrapper from "./EducationWrapper";
 import Timeline from "./EducationTimeline";
+import EducationClipWrapper from "./EducationClipWrapper";
 
 const Education: React.FC = () => {
-const educationInfo = useMemo(() => menuItems.find(item => item.label === "Education")!, []);
+  const educationInfo = useMemo(
+    () => menuItems.find((item) => item.label === "Education")!,
+    []
+  );
 
   return (
-    <Section id={educationInfo.href}>
-      <Container>
-        <Title label={educationInfo.label} />
-        <Wrapper>
-          <Timeline education={education} />
-        </Wrapper>
-      </Container>
-    </Section>
+    <EducationClipWrapper>
+      <Section id={educationInfo.href}>
+        <Container>
+          <Title label={educationInfo.label} />
+          <Wrapper>
+            <Timeline education={education} />
+          </Wrapper>
+        </Container>
+      </Section>
+    </EducationClipWrapper>
   );
 };
 
