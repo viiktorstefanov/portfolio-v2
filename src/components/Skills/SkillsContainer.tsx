@@ -6,7 +6,7 @@ type SkillsContainerProps = {
 
 const SkillsContainer: React.FC<SkillsContainerProps> = ({ children }) => {
   return (
-    <div className="w-full flex flex-wrap mt-8 gap-[30px] justify-center">
+    <div className="w-full flex flex-wrap mt-14 gap-7.5 justify-center pl-4 pr-4">
       {children}
     </div>
   );
