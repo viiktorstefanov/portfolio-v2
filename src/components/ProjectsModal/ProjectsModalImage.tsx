@@ -13,7 +13,7 @@ const ProjectsModalImage: React.FC<ProjectsModalImageProps> = ({
     <img
       src={url}
       alt={alt}
-      className="w-full object-cover rounded-[12px] mt-[30px] shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]"
+      className="w-full h-full object-cover rounded-[12px] mt-[30px] shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]"
     />
   );
 };
