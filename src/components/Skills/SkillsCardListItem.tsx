@@ -8,11 +8,7 @@ const SkillsCardListItem: React.FC<SkillsCardListItemProps> = ({
   children,
 }) => {
   return (
-    <div
-      className="text-white text-[16px] font-normal rounded-[12px] px-4 py-3 flex items-center justify-center gap-2 
-md:text-[16px] md:px-4 md:py-3 
-max-[500px]:text-[14px] max-[500px]:px-3 max-[500px]:py-[6px]"
-    >
+    <div className="w-full text-white text-base font-normal rounded-[12px] py-3 flex flex-col items-center justify-center gap-2 text-center">
       {children}
     </div>
   );
