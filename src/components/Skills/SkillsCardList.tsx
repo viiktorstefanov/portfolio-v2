@@ -6,7 +6,9 @@ type SkillsCardListProps = {
 
 const SkillsCardList: React.FC<SkillsCardListProps> = ({ children }) => {
   return (
-    <div className="flex justify-center flex-wrap gap-3 mb-5">{children}</div>
+    <div className="grid grid-cols-3 md:grid-cols-3 gap-1 mb-5 justify-items-center">
+      {children}
+    </div>
   );
 };
 
