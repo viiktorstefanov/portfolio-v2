@@ -6,7 +6,7 @@ type SkillsCardTitleProps = {
 
 const SkillsCardTitle: React.FC<SkillsCardTitleProps> = ({ title }) => {
   return (
-    <h2 className="text-[28px] font-semibold text-white mb-5 text-center">
+    <h2 className="text-2xl font-semibold text-white mb-8 text-center md:text-[28px]">
       {title}
     </h2>
   );
