@@ -56,11 +56,6 @@ export const skills: SkillCategory[] = [
         image: "https://skillicons.dev/icons?i=html",
       },
       {
-        id: "0a6de881-e78f-405c-9072-f87e1bdb150b",
-        name: "CSS",
-        image: "https://skillicons.dev/icons?i=css",
-      },
-      {
         id: "20b827e7-355f-45fb-b399-4b4c4023185e",
         name: "JavaScript",
         image: "https://skillicons.dev/icons?i=javascript",
@@ -69,6 +64,11 @@ export const skills: SkillCategory[] = [
         id: "72d7782c-2f91-4da6-b757-75e75ab3b1a8",
         name: "TypeScript",
         image: "https://skillicons.dev/icons?i=typescript",
+      },
+      {
+        id: "0a6de881-e78f-405c-9072-f87e1bdb150b",
+        name: "CSS",
+        image: "https://skillicons.dev/icons?i=css",
       },
       {
         id: "d6b87856-638e-42ca-9f51-398dd1854e5f",
@@ -563,7 +563,7 @@ export const projects: Project[] = [
     id: "d8d33e0d-d583-4c51-b1bb-48d09a3d3c02",
     title: "Drone Delivery Network Simulator",
     description:
-      "This project was part of an assignment when I applied for an internship as an intern web developer at ' Nemetschek ' company.I had to create an application to simulate deliveries of products with drones.As it had to be calculated: the final time for all deliveries, how many drones were used for deliveries, what type of drones were used, the average delivery time, the current status of each order, the current status of each drone. As input data we get a JSON format file.",
+      "This project was part of an assignment when I applied for an internship as an intern web developer at 'Nemetschek' company. I had to create an application to simulate deliveries of products with drones.As it had to be calculated: the final time for all deliveries, how many drones were used for deliveries, what type of drones were used, the average delivery time, the current status of each order, the current status of each drone. As input data we get a JSON format file.",
     image: {
       url: "assets/images/drone-delivery-screenshot.webp",
       objectFit: "contain",
