@@ -9,27 +9,54 @@ import { Experience } from "../../types/constants";
 import { motion } from "framer-motion";
 import { itemVariants } from "../../animations/experienceVariants";
 import ExperienceCard from "./ExperienceCard";
+import useIsMobile from "../../hooks/useIsMobile";
 
 type ExperienceTimelineProps = {
   experiences: Experience[];
 };
 
+const MotionTimelineItem = motion.create(TimelineItem);
+const MotionDiv = motion.div;
+
+const motionProps = {
+  initial: "hidden",
+  whileInView: "visible",
+  viewport: { once: false, amount: 0.3 },
+  variants: itemVariants,
+};
+
 const ExperienceTimeline: React.FC<ExperienceTimelineProps> = ({
   experiences,
 }) => {
-  return (
-    <div className="w-full max-w-[1000px] mt-2 flex flex-col items-center justify-center gap-3">
-      <Timeline>
+  const isMobile = useIsMobile();
+
+  if (isMobile) {
+    return (
+      <div className="mt-14 w-full flex flex-col flex-wrap gap-7.5 justify-center items-center">
         {experiences.map((experience, index) => (
-          <motion.div
+          <MotionDiv
             key={experience.id}
             custom={index}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: false, amount: 0.3 }}
-            variants={itemVariants}
+            {...motionProps}
+            className="pl-4 pr-4"
           >
-            <TimelineItem>
+            <ExperienceCard experience={experience} />
+          </MotionDiv>
+        ))}
+      </div>
+    );
+  };
+  
+  return (
+    <div className="w-full max-w-[330px] flex flex-col items-center justify-center gap-3 md:max-w-[1000px]">
+      <Timeline sx={{ padding: 0}}>
+        {experiences.map((experience: Experience, index: number) => (
+          <MotionTimelineItem
+            key={experience.id}
+            custom={index}
+            {...motionProps}
+          >
+            <TimelineItem >
               <TimelineSeparator>
                 <TimelineDot variant="outlined" color="inherit" />
                 {index !== experiences.length - 1 && (
@@ -40,7 +67,7 @@ const ExperienceTimeline: React.FC<ExperienceTimelineProps> = ({
                 <ExperienceCard experience={experience} />
               </TimelineContent>
             </TimelineItem>
-          </motion.div>
+          </MotionTimelineItem>
         ))}
       </Timeline>
     </div>
