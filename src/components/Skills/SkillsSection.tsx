@@ -9,7 +9,7 @@ const SkillsSection: React.FC<SkillsSectionProps> = ({ id, children }) => {
   return (
     <section
       id={id}
-      className="flex flex-col justify-center relative z-1 items-center pt-20"
+      className="flex flex-col justify-center relative z-1 items-center pt-25"
     >
       {children}
     </section>
