@@ -17,7 +17,7 @@ const ProjectModalButton: React.FC<ProjectModalButtonProps> = ({
       to={url}
       target="_blank"
       className={`
-        w-full text-center text-base font-semibold px-4 py-3 rounded-lg
+        w-full text-center text-sm md:text-base font-semibold px-4 py-3 rounded-lg
         transition-all duration-500 ease-in-out
         cursor-pointer no-underline
         ${
