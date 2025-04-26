@@ -6,7 +6,7 @@ type ExperienceCardRoleProps = {
 
 const ExperienceCardRole: React.FC<ExperienceCardRoleProps> = ({ role }) => {
   return (
-    <h3 className="text-white font-semibold text-[18px]">{role}</h3>
+    <h3 className="text-white font-semibold text-sm md:text-lg">{role}</h3>
   );
 };
 

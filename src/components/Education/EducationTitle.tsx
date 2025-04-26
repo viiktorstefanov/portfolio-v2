@@ -6,7 +6,7 @@ type EducationTitleProps = {
 
 const EducationTitle: React.FC<EducationTitleProps> = ({ label }) => {
   return (
-    <h1 className="font-poppins text-center font-semibold text-white mt-5 sm:text-[42px] sm:mt-3">
+    <h1 className="font-poppins text-center font-semibold text-white text-4xl md:text-5xl m-0">
       {label}
     </h1>
   );

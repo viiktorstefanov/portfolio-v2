@@ -9,24 +9,50 @@ import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineDot from "@mui/lab/TimelineDot";
 import EducationCard from "./EducationCard";
 import { itemVariants } from "../../animations/educationVariants";
+import useIsMobile from "../../hooks/useIsMobile";
 
 type EducationTimelineProps = {
   education: Education[];
 };
 
+const MotionTimelineItem = motion.create(TimelineItem);
+const MotionDiv = motion.div;
+
+const motionProps = {
+  initial: "hidden",
+  whileInView: "visible",
+  viewport: { once: false, amount: 0.3 },
+  variants: itemVariants,
+};
+
 const EducationTimeline: React.FC<EducationTimelineProps> = ({ education }) => {
+  const isMobile = useIsMobile();
+
+  if (isMobile) {
+    return (
+      <div className="mt-14 w-full flex flex-col flex-wrap gap-7.5 justify-center items-center">
+        {education.map((item: Education, index: number) => (
+          <MotionDiv
+            key={item.id}
+            custom={index}
+            {...motionProps}
+            className="pl-4 pr-4"
+          >
+            <EducationCard education={item} />
+          </MotionDiv>
+        ))}
+      </div>
+    );
+  };
+
   return (
     <Timeline>
-      {education.map((item, index) => (
-        <motion.div
+      {education.map((item: Education, index: number) => (
+        <MotionTimelineItem
           key={item.id}
           custom={index}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: false, amount: 0.3 }}
-          variants={itemVariants}
+          {...motionProps}
         >
-          <TimelineItem>
             <TimelineContent sx={{ py: "12px", px: 2 }}>
               <EducationCard education={item} />
             </TimelineContent>
@@ -36,8 +62,7 @@ const EducationTimeline: React.FC<EducationTimelineProps> = ({ education }) => {
                 <TimelineConnector style={{ background: "#171721e0" }} />
               )}
             </TimelineSeparator>
-          </TimelineItem>
-        </motion.div>
+        </MotionTimelineItem>
       ))}
     </Timeline>
   );

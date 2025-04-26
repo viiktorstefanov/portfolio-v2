@@ -12,7 +12,7 @@ const ExperienceSection: React.FC<ExperienceSectionProps> = ({
   return (
     <section
       id={id}
-      className="font-poppins flex flex-col justify-center relative z-[1] items-center py-[40px] md:py-0 mt-20"
+      className="font-poppins flex flex-col justify-center relative z-[1] items-center md:py-0 pt-10"
     >
       {children}
     </section>
