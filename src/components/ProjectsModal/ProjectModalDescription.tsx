@@ -6,7 +6,7 @@ type ProjectModalDescription = {
 
 const ProjectModalDescription: React.FC<ProjectModalDescription> = ({description}) => {
   return (
-    <p className='text-base font-normal text-white mx-[6px] my-2 sm:my-[6px]'>
+    <p className='text-base font-normal text-justify text-white mx-[6px] my-2 sm:my-[6px]'>
       {description}
     </p>
   );
