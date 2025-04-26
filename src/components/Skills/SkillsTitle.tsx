@@ -2,7 +2,7 @@ import React from "react";
 
 const SkillsTitle: React.FC = () => {
   return (
-    <h2 className="font-poppins text-[32px] md:text-[42px] text-center font-semibold mt-3 md:mt-5 text-white">
+    <h2 className="font-poppins text-4xl md:text-5xl text-center font-semibold text-white">
       Skills
     </h2>
   );
