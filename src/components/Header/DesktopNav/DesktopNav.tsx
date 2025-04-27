@@ -8,8 +8,8 @@ import GithubButton from "../GithubButton/GithubButton";
 
 const DesktopNav: React.FC = () => {
   return (
-    <div className="w-full flex items-center justify-center gap-5 px-[6px] text-[18px] max-w-[1200px]">
-      <div className="w-[70%] flex items-center justify-start gap-8 px-1.5 text-lg text-white">
+    <div className="w-full flex items-center justify-center gap-5 px-[6px] text-lg max-w-[1200px]">
+      <div className="w-[70%] flex items-center justify-start gap-8 px-1.5 text-xl text-white">
         {menuItems.map((item) => (
           <MenuItem key={item.label} target={item.href} label={item.label} />
         ))}
