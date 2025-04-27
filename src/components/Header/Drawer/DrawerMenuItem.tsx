@@ -18,7 +18,9 @@ const DrawerMenuItem: React.FC<DrawerMenuItemProps> = ({
   return (
     <Link
       to={target}
-      duration={100}
+      duration={1000}
+      smooth={true}
+      hashSpy={true}
       className="flex gap-3 justify-start items-center pt-[10px] pr-0 pb-[10px] pl-[27px]"
       onClick={onClick}
     >
