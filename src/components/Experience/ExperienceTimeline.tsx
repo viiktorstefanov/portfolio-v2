@@ -45,18 +45,24 @@ const ExperienceTimeline: React.FC<ExperienceTimelineProps> = ({
         ))}
       </div>
     );
-  };
-  
+  }
+
   return (
-    <div className="w-full max-w-[330px] flex flex-col items-center justify-center gap-3 md:max-w-[1000px]">
-      <Timeline sx={{ padding: 0}}>
+    <div className="w-full max-w-[330px] flex flex-col items-center justify-center gap-3 md:max-w-[1000px] md:mt-14">
+      <Timeline
+        sx={{
+          p: 0,
+          "& .MuiTimelineItem-root:before": {
+            display: "none",
+          },
+        }}
+      >
         {experiences.map((experience: Experience, index: number) => (
           <MotionTimelineItem
             key={experience.id}
             custom={index}
             {...motionProps}
           >
-            <TimelineItem >
               <TimelineSeparator>
                 <TimelineDot variant="outlined" color="inherit" />
                 {index !== experiences.length - 1 && (
@@ -66,7 +72,6 @@ const ExperienceTimeline: React.FC<ExperienceTimelineProps> = ({
               <TimelineContent sx={{ py: "12px", px: 2 }}>
                 <ExperienceCard experience={experience} />
               </TimelineContent>
-            </TimelineItem>
           </MotionTimelineItem>
         ))}
       </Timeline>
