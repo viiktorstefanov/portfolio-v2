@@ -13,7 +13,7 @@ const HeroTextLoop: React.FC = () => {
     <div
       className="font-poppins font-semibold text-[32px] flex gap-3 text-white leading-[68px] 
            max-[960px]:text-center 
-           max-[640px]:text-[18px] max-[640px]:leading-[48px] max-[640px]:mb-4"
+           max-[640px]:text-[18px] max-[640px]:leading-[48px] max-[640px]:mb-4 md:ml-2"
     >
       I am a
       <HeroSpan>
