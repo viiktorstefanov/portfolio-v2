@@ -8,11 +8,11 @@ type EducationCardProps = {
 const EducationCard: React.FC<EducationCardProps> = ({ education }) => {
   return (
     <div
-      className="w-full min-w-[330px] rounded-[10px] shadow-[rgba(23,92,230,0.15)_0px_4px_24px] p-[12px_16px] 
+      className="w-[330px] h-[105px] md:min-w-[650px] rounded-[10px] shadow-[rgba(23,92,230,0.15)_0px_4px_24px] p-[12px_16px] 
 flex flex-col justify-between gap-[12px] relative overflow-hidden transition-all duration-300 ease-in-out 
 bg-[#171721e0] hover:shadow-[0_0_20px_rgba(0,0,0,0.2)] hover:-translate-y-1.5"
     >
-      <div className="w-full flex gap-3">
+      <div className="w-full flex justify-center gap-3">
         <img
           className="h-[40px] md:h-[50px] bg-black rounded-[10px] mt-1"
           src={education.img}
