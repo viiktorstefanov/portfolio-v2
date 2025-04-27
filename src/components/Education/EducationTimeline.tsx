@@ -46,7 +46,12 @@ const EducationTimeline: React.FC<EducationTimelineProps> = ({ education }) => {
   };
 
   return (
-    <Timeline>
+    <Timeline sx={{
+      p: 0,
+      '& .MuiTimelineItem-root:before': {
+        display: 'none',
+      },
+    }}>
       {education.map((item: Education, index: number) => (
         <MotionTimelineItem
           key={item.id}
