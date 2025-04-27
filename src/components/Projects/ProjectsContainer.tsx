@@ -12,7 +12,7 @@ const ProjectsContainer: React.FC<ProjectsContainerProps> = ({
   onOpenModal,
 }) => {
   return (
-    <div className="flex justify-center items-center gap-7 flex-wrap">
+    <div className="flex justify-center items-center gap-7 flex-wrap md:mt-14">
       {projects.map((project) => (
         <ProjectsCard
           key={project.id}
