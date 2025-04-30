@@ -35,13 +35,21 @@ git clone https://github.com/viiktorstefanov/portfolio-v2.git
 cd portfolio-v2
 ```
 
-### 2. Install dependencies
+### 2. Edit example data 
+
+```bash
+Go to src/constants/example.data.ts 
+Rename example.data.ts to data.ts
+Update with your personal information
+```
+
+### 3. Install dependencies
 
 ```bash
 npm install
 ```
 
-### 3. Run the project 
+### 4. Run the project 
 
 ```bash
 npm run dev 
