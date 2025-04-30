@@ -23,7 +23,7 @@ const YouTubePlayer: React.FC<YouTubePlayerProps> = ({ videoId }) => {
     },
   };
 
-  return <YouTube videoId={videoId} loading='lazy' className='w-full mt-10' iframeClassName='w-full rounded-2xl' title='YouTube video player' opts={opts} onReady={onPlayerReady}/>;
+  return <YouTube videoId={videoId} className='w-full mt-10' iframeClassName='w-full rounded-2xl' title='YouTube video player' opts={opts} onReady={onPlayerReady}/>;
 
 };
 
