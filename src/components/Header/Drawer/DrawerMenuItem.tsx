@@ -18,11 +18,13 @@ const DrawerMenuItem: React.FC<DrawerMenuItemProps> = ({
   return (
     <Link
       to={target}
-      duration={1000}
-      smooth={true}
-      hashSpy={true}
-      className="flex gap-3 justify-start items-center pt-[10px] pr-0 pb-[10px] pl-[27px]"
       onClick={onClick}
+      smooth={true}
+      duration={100}
+      hashSpy={true}
+      spy={true}
+      activeClass="active"
+      className="flex gap-3 justify-start items-center pt-[10px] pr-0 pb-[10px] pl-[27px]"
     >
       <Icon className="text-[25px] text-primary-app" />
       <span className="font-medium hover:text-primary-app transition duration-200 ease-in-out leading-[0] cursor-pointer">
