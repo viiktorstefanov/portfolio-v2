@@ -18,6 +18,39 @@ html {
 
 @layer utilities {
   .clip-education-polygon {
+
+    width: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 98%, 0 100%);
+    background-color: var(--primary-app);
+  }
+
+  .clip-cetificate-polygon {
+    background: linear-gradient(38.73deg, #cc00bb26, #c920b800 50%), linear-gradient(141.27deg, #0046d100 50%, #0046d126);
+    clip-path: polygon(0 0, 100% 0, 100% 99%, 0 100%, 0 100%);
+  }
+
+  .clip-projects-polygon {
+    background: linear-gradient(
+      343.07deg,
+      rgba(132, 59, 206, 0.06) 5.71%,
+      rgba(132, 59, 206, 0) 64.83%
+    );
+    clip-path: polygon(0 0, 100% 0, 100% 99%, 0 100%, 0 100%);
+  }
+
+  .clip-hero-polygon {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%);
+    background: #000;
+  }
+
+  .clip-footer-polygon {
+    background: linear-gradient(38.73deg, #cc00bb26, #c920b800 50%),
+      linear-gradient(141.27deg, #0046d100 50%, #0046d126);
+    width: 100%;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 15%, 100% 100%, 0 100%, 0 15%);
+  }
+
+  .wrapper {
     background: linear-gradient(
         38.73deg,
         rgba(204, 0, 187, 0.15) 0%,
@@ -30,61 +63,11 @@ html {
       );
     width: 100%;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 98%, 0 100%);
-    background-color: var(--primary-app);
-  }
-
-  .clip-cetificate-polygon {
-    background: linear-gradient(
-      343.07deg,
-      rgba(132, 59, 206, 0.06) 5.71%,
-      rgba(132, 59, 206, 0) 64.83%
-    );
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 100% 99%, 0 100%);
-  }
-
-  .clip-projects-polygon {
-    background: linear-gradient(
-      343.07deg,
-      rgba(132, 59, 206, 0.06) 5.71%,
-      rgba(132, 59, 206, 0) 64.83%
-    );
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 99%, 0 100%);
-  }
-
-  .clip-hero-polygon {
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%);
-    background: #000;
-  }
-  
-
-  .wrapper {
-    background: linear-gradient(
-      38.73deg,
-      rgba(204, 0, 187, 0.15) 0%,
-      rgba(201, 32, 184, 0) 50%
-    ),
-    linear-gradient(
-      141.27deg,
-      rgba(0, 70, 209, 0) 50%,
-      rgba(0, 70, 209, 0.15) 100%
-    );
-  width: 100%;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 98%, 0 100%);
   }
 
   .wrapper-education {
-    background: linear-gradient(
-      38.73deg,
-      rgba(204, 0, 187, 0.15) 0%,
-      rgba(201, 32, 184, 0) 50%
-    ),
-    linear-gradient(
-      141.27deg,
-      rgba(0, 70, 209, 0.15) 100%
-      rgba(0, 70, 209, 0) 50%,
-    );
-  width: 100%;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 98%, 0 100%);
+    width: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 98%, 0 100%);
   }
 
   .body {
@@ -152,6 +135,12 @@ html {
     overflow: hidden;
     z-index: 0;
     animation: shimmer 4s infinite linear;
+  }
+
+  .captcha-wrapper iframe {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
   }
 }
 

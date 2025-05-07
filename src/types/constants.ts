@@ -4,6 +4,7 @@ export type BioType = {
   name: string;
   roles: string[];
   description: string;
+  email: string,
   github: string;
   linkedin: string;
   photo: string;
@@ -57,7 +58,7 @@ export type Project = {
   tags: string[];
   github?: string;
   webapp?: string;
-  youTubeVideoId?: string;
+  videoURL?: string;
 };
 
 export type MenuItem = {

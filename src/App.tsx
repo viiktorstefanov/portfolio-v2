@@ -12,6 +12,8 @@ import Skills from "./components/Skills/Skills";
 import Hero from "./components/Hero/Hero";
 import Wrapper from "./components/Wrapper/Wrapper";
 import useScrollToHash from "./hooks/useScrollToHash";
+import Contact from "./components/Contact/Contact";
+import BackToTop from "./components/BackToTop/BackToTop";
 
 const App: React.FC = () => {
   useScrollToHash();
@@ -28,6 +30,8 @@ const App: React.FC = () => {
         <Projects />
         <Education />
         <Certificates />
+        <Contact />
+        <BackToTop />
         <Footer />
       </Main>
     </Router>

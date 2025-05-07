@@ -3,7 +3,6 @@ import { Modal } from "@mui/material";
 import { Project } from "../../types/constants";
 import Container from "./ProjectModalContainer";
 import Wrapper from "./ProjectModalWrapper";
-import YouTubePlayer from "../YouTubePlayer/YouTubePlayer";
 import CloseButton from "./ProjectsModalCloseButton";
 import Image from "./ProjectsModalImage";
 import Title from "./ProjectsModalTitle";
@@ -12,6 +11,7 @@ import Tag from "./ProjectModalTag";
 import Description from "./ProjectModalDescription";
 import ButtonsGroup from "./ProjectModalButtonsGroup";
 import Button from "./ProjectModalButton";
+import Player from "../Player/Player";
 
 type ProjectsModalProps = {
   openModal: boolean;
@@ -29,8 +29,8 @@ const ProjectsModal: React.FC<ProjectsModalProps> = ({
       <Container>
         <Wrapper>
           <CloseButton onClick={onCloseModal} />
-          {project.youTubeVideoId ? (
-            <YouTubePlayer videoId={project.youTubeVideoId} />
+          {project.videoURL ? (
+            <Player url={project.videoURL} />
           ) : (
             <Image url={project.imageView!} alt={project.title} />
           )}
