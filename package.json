@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "author": {
     "name": "Viktor Stefanov  ",
-    "email": "victorystefanov@gmail.com",
-    "url": "https://viktor-stefanov.web.app"
+    "email": "contact@viktor-stefanov.dev",
+    "url": "https://viktor-stefanov.dev"
   },
   "type": "module",
   "scripts": {
@@ -17,6 +17,8 @@
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
+    "@formspree/react": "^3.0.0",
+    "@hcaptcha/react-hcaptcha": "^1.12.0",
     "@mui/icons-material": "^7.0.2",
     "@mui/lab": "^7.0.0-beta.11",
     "@mui/material": "^7.0.2",
@@ -25,9 +27,9 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-icons": "^5.5.0",
+    "react-player": "^2.16.0",
     "react-router-dom": "^7.5.0",
     "react-scroll": "^1.9.3",
-    "react-youtube": "^10.1.0",
     "tailwindcss": "^4.1.4",
     "typewriter-effect": "^2.21.0"
   },
