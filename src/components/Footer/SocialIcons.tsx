@@ -9,10 +9,11 @@ type SocialIconsProps = {
 };
 
 const SocialIcons: React.FC<SocialIconsProps> = ( { bio }) => {
+
   return (
     <div className="flex gap-2 justify-center items-center text-3xl">
     <Link to={`mailto:${bio.email}`} className="hover:opacity-50">
-      <MdEmail size={34} />
+      <MdEmail className='text-4xl'/>
     </Link>
     <Link to={bio.linkedin} target="_blank" className="hover:opacity-50">
       <FaLinkedin />
