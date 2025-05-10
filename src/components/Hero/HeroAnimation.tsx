@@ -35,20 +35,25 @@ const HeroAnimation: React.FC = () => {
           rx="1.07306"
           ry="1.07433"
           fill="#F46737"
+          opacity="0"
         >
           <animateMotion dur="10s" repeatCount="indefinite" rotate="auto">
             <mpath xlinkHref="#path_2" />
           </animateMotion>
+          <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="0s" fill="freeze"/>
         </ellipse>
         <path
           d="M294.685 193.474L268.932 219.258"
           transform="translate(-294.685 -193.474) rotate(45 294.685 193.474)"
           stroke="url(#paint3_linear)"
+          opacity="0"
         >
           <animateMotion dur="10s" repeatCount="indefinite" rotate="auto">
             <mpath xlinkHref="#path_2" />
           </animateMotion>
+          <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="0s" fill="freeze"/>
         </path>
+
         <ellipse
           cx="295.027"
           cy="193.118"
@@ -56,30 +61,36 @@ const HeroAnimation: React.FC = () => {
           rx="1.07306"
           ry="1.07433"
           fill="#46737"
+          opacity="0"
         >
           <animateMotion
             dur="5s"
-            begin="1"
+            begin="1s"
             repeatCount="indefinite"
             rotate="auto"
           >
             <mpath xlinkHref="#path_2" />
           </animateMotion>
+
+          <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="1s" fill="freeze"/>
         </ellipse>
         <path
           d="M294.685 193.474L268.932 219.258"
           transform="translate(-294.685 -193.474) rotate(45 294.685 193.474)"
           stroke="url(#paint7_linear)"
+          opacity="0"
         >
           <animateMotion
             dur="5s"
-            begin="1"
+            begin="1s"
             repeatCount="indefinite"
             rotate="auto"
           >
             <mpath xlinkHref="#path_2" />
           </animateMotion>
+          <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="1s" fill="freeze"/>
         </path>
+
         <ellipse
           cx="476.525"
           cy="363.313"
@@ -87,20 +98,25 @@ const HeroAnimation: React.FC = () => {
           ry="1.07306"
           transform="translate(-476.525 -363.313) rotate(90 476.525 363.313)"
           fill="#F46737"
+          opacity="0"
         >
           <animateMotion dur="10s" repeatCount="indefinite" rotate="auto">
             <mpath xlinkHref="#path_0" />
           </animateMotion>
+          <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="0s" fill="freeze"/>
         </ellipse>
         <path
           d="M476.171 362.952L450.417 337.168"
           transform="translate(-476.525 -363.313) rotate(-45 476.171 362.952)"
           stroke="url(#paint4_linear)"
+          opacity="0"
         >
           <animateMotion dur="10s" repeatCount="indefinite" rotate="auto">
             <mpath xlinkHref="#path_0" />
           </animateMotion>
+          <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="0s" fill="freeze"/>
         </path>
+
         <ellipse
           cx="382.164"
           cy="155.029"
@@ -108,30 +124,35 @@ const HeroAnimation: React.FC = () => {
           ry="1.07306"
           transform="translate(-382.164 -155.029) rotate(90 382.164 155.029)"
           fill="#F46737"
+          opacity="0"
         >
           <animateMotion
             dur="10s"
-            begin="1"
+            begin="1s"
             repeatCount="indefinite"
             rotate="auto"
           >
             <mpath xlinkHref="#path_0" />
           </animateMotion>
+          <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="1s" fill="freeze"/>
         </ellipse>
         <path
           d="M381.81 154.669L356.057 128.885"
           transform="translate(-381.81 -154.669) rotate(-45 381.81 154.669)"
           stroke="url(#paint5_linear)"
+          opacity="0"
         >
           <animateMotion
             dur="10s"
-            begin="1"
+            begin="1s"
             repeatCount="indefinite"
             rotate="auto"
           >
             <mpath xlinkHref="#path_0" />
           </animateMotion>
+          <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="1s" fill="freeze"/>
         </path>
+
         <ellipse
           cx="333.324"
           cy="382.691"
@@ -139,30 +160,35 @@ const HeroAnimation: React.FC = () => {
           ry="1.07433"
           transform="translate(-333.324 -382.691) rotate(-180 333.324 382.691)"
           fill="#F46737"
+          opacity="0"
         >
           <animateMotion
             dur="5s"
-            begin="0"
+            begin="0s"
             repeatCount="indefinite"
             rotate="auto"
           >
             <mpath xlinkHref="#path_1" />
           </animateMotion>
+          <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="0s" fill="freeze"/>
         </ellipse>
         <path
           d="M333.667 382.335L359.42 356.551"
           transform="scale(-1 1) translate(-333.667 -382.335) rotate(45 333.667 382.335)"
           stroke="url(#paint6_linear)"
+          opacity="0"
         >
           <animateMotion
             dur="5s"
-            begin="0"
+            begin="0s"
             repeatCount="indefinite"
             rotate="auto"
           >
             <mpath xlinkHref="#path_1" />
           </animateMotion>
+          <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="0s" fill="freeze"/>
         </path>
+
         <ellipse
           cx="165.524"
           cy="93.9596"
@@ -170,30 +196,35 @@ const HeroAnimation: React.FC = () => {
           ry="1.07433"
           transform="translate(-165.524 -93.9596)"
           fill="#F46737"
+          opacity="0"
         >
           <animateMotion
             dur="10s"
-            begin="3"
+            begin="3s"
             repeatCount="indefinite"
             rotate="auto"
           >
             <mpath xlinkHref="#path_0" />
           </animateMotion>
+          <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="3s" fill="freeze"/>
         </ellipse>
         <path
           d="M165.182 94.3159L139.429 120.1"
           transform="translate(-165.182 -94.3159) rotate(45 165.182 94.3159)"
           stroke="url(#paint7_linear)"
+          opacity="0"
         >
           <animateMotion
             dur="10s"
-            begin="3"
+            begin="3s"
             repeatCount="indefinite"
             rotate="auto"
           >
             <mpath xlinkHref="#path_0" />
           </animateMotion>
+          <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="3s" fill="freeze"/>
         </path>
+
         <ellipse
           cx="476.525"
           cy="363.313"
@@ -201,30 +232,35 @@ const HeroAnimation: React.FC = () => {
           ry="1.07306"
           transform="translate(-476.525 -363.313) rotate(90 476.525 363.313)"
           fill="#F46737"
+          opacity="0"
         >
           <animateMotion
             dur="12s"
-            begin="4"
+            begin="4s"
             repeatCount="indefinite"
             rotate="auto"
           >
             <mpath xlinkHref="#path_0" />
           </animateMotion>
+          <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="4s" fill="freeze"/>
         </ellipse>
         <path
           d="M476.171 362.952L450.417 337.168"
           transform="translate(-476.525 -363.313) rotate(-45 476.171 362.952)"
           stroke="url(#paint11_linear)"
+          opacity="0"
         >
           <animateMotion
             dur="12s"
-            begin="4"
+            begin="4s"
             repeatCount="indefinite"
             rotate="auto"
           >
             <mpath xlinkHref="#path_0" />
           </animateMotion>
+          <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="4s" fill="freeze"/>
         </path>
+
         <defs>
           <radialGradient
             id="paint0_radial"
