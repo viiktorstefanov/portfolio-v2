@@ -83,7 +83,7 @@ const ContactForm: React.FC = () => {
   const validateEmail = (emailValue: string): string | undefined => {
     const trimmedEmail = emailValue.trim();
     if (!trimmedEmail) {
-      return "Email address is required.";
+      return "Please enter your email address.";
     }
     if (!EMAIL_REGEX.test(trimmedEmail)) {
       return "Please enter a valid email address.";
@@ -104,7 +104,7 @@ const ContactForm: React.FC = () => {
   const validateMessage = (messageValue: string): string | undefined => {
     const trimmedMessage = messageValue.trim();
     if (!trimmedMessage) {
-      return "Message is required.";
+      return "Please enter your message.";
     }
     if (trimmedMessage.length < 10) {
       return "Message must be at least 10 characters long.";
