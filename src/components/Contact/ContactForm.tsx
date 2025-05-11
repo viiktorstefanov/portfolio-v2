@@ -13,7 +13,7 @@ const ContactForm: React.FC = () => {
       ? state.errors.some((e) => e.field === field)
       : false;
   };
-
+  
   const handleCaptchaChange = (value: string | null) => {
     setCaptchaValue(value);
   };
@@ -111,7 +111,7 @@ const ContactForm: React.FC = () => {
 
       <div className="flex items-center justify-center w-full mt-8 mb-8 md:mt-8 md:mb-8 text-white captcha-wrapper">
         <HCaptcha
-          sitekey="36847c76-d876-4f7e-b98a-6c063e8c03be"
+          sitekey={import.meta.env.VITE_HCAPTCHA_SITEKEY}
           onVerify={handleCaptchaChange}
           theme={"dark"}
         />
