@@ -10,21 +10,23 @@ My previous portfolio was created early in my dev journey with JavaScript. Since
 
 - **Frontend Framework**: React
 - **Language**: TypeScript
-- **Styling**: Tailwind CSS
+- **Styling**: Tailwind
 - **Animations**: Framer Motion, Typewriter Effect
-- **Utilities**: React Icons, React Scroll, React YouTube
+- **Utilities**: React Icons, React Scroll, Hcaptcha
 
 ## Features
 
 - Responsive layout
-- Smooth animations and interactive effects
-- Scroll-based navigation and highlighting
-- Typewriter effect
-- YouTube video integration
+- Smooth animations and interactive effects using Framer Motion
+- Scroll-based navigation with active section highlighting for improved UX
+- Dynamic typewriter effect for engaging text presentation
+- Video player to showcase short project review clips
 - Modular and scalable architecture
 - Clean, reusable, and component-driven design
 - Built with small, maintainable, and reusable components for cleaner code and easier scalability
 - Optimized images using WebP format for faster loading and smaller file sizes
+- Custom contact form integrated with domain-based email delivery, providing a professional and secure communication channel
+- CAPTCHA protection implemented to prevent spam and ensure secure form submissions
 
 ## Installation
 
