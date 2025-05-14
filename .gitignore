@@ -13,11 +13,13 @@ dist
 dist-ssr
 *.local
 build
-src/constants/data.ts
-public/assets/images/certificates
 firebase.json
 .firebaserc
 .firebase
+.env
+
+# Ignore specific source file
+src/constants/data.ts
 
 # Editor directories and files
 .vscode/*
