@@ -42,7 +42,7 @@ cd portfolio-v2
 ```bash
 Go to src/constants/example.data.ts 
 Rename example.data.ts to data.ts
-Edit .env.example to .env with your HCAPTCHA site key
+Edit .env.example to .env with your HCAPTCHA site key and formspree id
 Update with your personal information
 ```
 
