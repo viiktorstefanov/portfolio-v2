@@ -30,30 +30,62 @@ My previous portfolio was created early in my dev journey with JavaScript. Since
 
 ## Installation
 
-### 1. Clone the repository:
+1. **Clone the repository**
 
 ```bash
 git clone https://github.com/viiktorstefanov/portfolio-v2.git
+```
+
+2. **Enter the project directory**
+
+```bash
 cd portfolio-v2
 ```
 
-### 2. Edit example data 
+3. **Install dependencies**
 
-```bash
-Go to src/constants/example.data.ts 
-Rename example.data.ts to data.ts
-Edit .env.example to .env with your HCAPTCHA site key and formspree id
-Update with your personal information
-```
-
-### 3. Install dependencies
+Make sure you have [Node.js](https://nodejs.org/) installed (v20 or later recommended).
 
 ```bash
 npm install
 ```
 
-### 4. Run the project 
+4. **Rename and edit the data file**
+
+Rename the example data file:
 
 ```bash
-npm run dev 
+mv src/constants/example.data.ts src/constants/data.ts
+```
+
+Then open `src/constants/data.ts` and update it with your personal information:
+
+- Bio  
+- Skills  
+- Experience
+- Education
+- Certificates
+- Projects  
+
+5. **Set up environment variables**
+
+Copy the example environment file:
+
+```bash
+cp .env.example .env
+```
+
+Edit the new `.env` file and fill in your credentials:
+
+```env
+NEXT_PUBLIC_HCAPTCHA_SITE_KEY=your-hcaptcha-site-key
+FORMSPREE_ID=your-formspree-id
+```
+
+You can get your hCaptcha key from [hcaptcha.com](https://www.hcaptcha.com/) and your Formspree ID from [formspree.io](https://formspree.io/).
+
+6. **Run the development server**
+
+```bash
+npm run dev
 ```
